@@ -1,4 +1,4 @@
-# Scrap Mechanic v0.2.9 \& mods
+# Scrap Mechanic v0.2.9 mods
 
 Scrap Mechanic mods for 0.2.9.
 
