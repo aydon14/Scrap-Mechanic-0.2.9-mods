@@ -11,5 +11,5 @@ THE MODPACK 0.2.9 PORT CHANGES:
 * Removed non-functional scripted parts, Scripts/, and Effects/ folders
 * Kept 27 sports/billiard/bowling props as native physics parts in betaballs.json
 
-Night Mod 0.3 by Durf also included AND ported to 0.3
+Night Mod 0.3 by Durf also included AND ported to 0.2.9
 
