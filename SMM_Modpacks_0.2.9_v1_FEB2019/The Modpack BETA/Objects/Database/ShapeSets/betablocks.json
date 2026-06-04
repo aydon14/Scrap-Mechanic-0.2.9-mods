@@ -1,0 +1,47 @@
+{
+	"blockList":
+	[
+		{
+			"uuid": "e8872924-5c1e-400d-90d5-00ea5228760d",
+			"dif": "$GAME_DATA/Textures/transparent.tga",
+			"asg": "$MOD_DATA/Objects/Textures/sg_asg.png",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "00ff88",
+			"density": 1000000,
+			"tiling": 1,
+			"physicsMaterial": "Plastic",
+		},
+		{
+			"uuid": "c2ce86e5-39f7-4bfa-ae54-6600fd08b075",
+			"dif": "$MOD_DATA/Objects/Textures/blk_insulation01_dif.png",
+			"asg": "$MOD_DATA/Objects/Textures/blk_insulation01_asg.png",
+			"nor": "$MOD_DATA/Objects/Textures/blk_insulation01_nor.png",
+			"color": "debe5d",
+         	"density": 250.0,
+			"tiling": 4,
+			"physicsMaterial": "Plastic",
+		},
+		{
+   			"uuid": "2d857a04-026b-4c26-9481-cc9c4185d1fa",
+			"dif": "$GAME_DATA/Textures/transparent.tga",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.png",
+			"nor": "$MOD_DATA/Objects/Textures/hexa_blocks_nor_test4.png",
+			"color": "df7f00",
+			"density": 250.0,
+			"tiling": 4,
+			"physicsMaterial": "Plastic",
+   		},
+		{
+			"uuid": "0987b4fe-18fb-4c85-9238-026f204d00e8",
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_nor.tga",
+			"color": "ff0000",
+			"density": 250.0,
+			"tiling": 8,
+			"physicsMaterial": "Wood",
+		}
+   		
+
+	]
+}

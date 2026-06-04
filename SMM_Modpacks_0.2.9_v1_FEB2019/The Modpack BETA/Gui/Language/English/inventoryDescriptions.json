@@ -1,0 +1,656 @@
+{
+
+	//blocks
+	"e8872924-5c1e-400d-90d5-00ea5228760d":
+	{
+		"title": "Ridiculously Heavy Block",
+		"description": "100x Ultra Heavy\n\nRadioactive heavy element\n\nIt doesn't take much of this stuff to fall through the ground."
+	},
+	"c2ce86e5-39f7-4bfa-ae54-6600fd08b075":
+	{
+		"title": "Insulation Block",
+		"description": "A texture that was hidden in the game files since early versions"
+	},
+	"2d857a04-026b-4c26-9481-cc9c4185d1fa":
+	{
+		"title": "Hexa Block",
+		"description": "Repeating hexagonal optical illusion texture "
+	},
+	"0987b4fe-18fb-4c85-9238-026f204d00e8":
+	{
+		"title": "Fuse Block",
+		"description": "A very flammable block, designed to be used as a fuse line with fire physics. Do not use this block for building, as a lot of fire physics may cause performance problems."
+	},
+
+
+
+	//seats
+	"5ab5c102-f1ad-4e6f-9c5a-b465111e6389":
+	{
+		"title": "Driver's Passenger Seat",
+		"description": "It's a passenger seat that drives like a driver's seat"
+	},
+	"3ec35e60-b6a9-4e9b-a561-9db58de71398":
+	{
+		"title": "Driver's Passenger Saddle",
+		"description": "It's a passenger saddle that drives like a driver's saddle"
+	},
+	"1a568186-a889-4d64-835c-b5c720dcb813":
+	{
+		"title": "Driver's Toilet",
+		"description": "It's a toilet that drives like a driver's seat"
+	},
+	"c490e81d-4dd2-461a-a532-354ae3755e68":
+	{
+		"title": "Driver's Bathtub",
+		"description": "It's a bathtub that drives like a driver's seat"
+	},
+	"54aa0789-3990-4f62-99f7-7a1947f1055d":
+	{
+		"title": "Barrel",
+		"description": ""
+	},
+	"b9a71705-3333-4bbc-b6a4-2e3c4f30e2a3":
+	{
+		"title": "Director's Chair",
+		"description": ""
+	},
+	"a5a1c430-7d1c-4330-8a58-f267e20883b7":
+	{
+		"title": "Mario Pipe 10",
+		"description": ""
+	},
+	"c4011f77-92f7-4496-b42a-2eebd8909bc9":
+	{
+		"title": "Mario Pipe 100",
+		"description": ""
+	},
+	"93f31fb9-362e-4adc-ac61-e90e018dc462":
+	{
+		"title": "Mario Pipe 1000",
+		"description": ""
+	},
+	"69ec6a78-5aab-4464-88e5-fe708431e9ad":
+	{
+		"title": "Seat of Pain",
+		"description": ""
+	},
+
+
+
+	// lights
+	"16345832-ff39-4bba-9b35-8e568c61378b":
+	{
+		"title": "High-Powered Headlight",
+		"description": "Regular Light\nHigh Power\nDo not adjust the range setting, it will only take away the high-power\n\n#ff0000Currently Not Working with full intensity"
+	},
+	"0479cf0c-0636-4c1e-88b9-10b971f633ae":
+	{
+		"title": "Wide-angle Headlight",
+		"description": "Regular Light with a wide angle"
+	},
+	"6af9a297-0332-4887-836f-2334cc2f0065":
+	{
+		"title": "Theatre Headlight",
+		"description": "A very focused spotlight"
+	},
+	"6af9a297-0333-4887-836f-2334cc2f0065":
+	{
+		"title": "Searchlight ",
+		"description": "\n\n#ff0000Currently Not Working with full intensity"
+	},
+	"6af9a297-0334-4887-836f-2334cc2f0065":
+	{
+		"title": "Emergency Light ",
+		"description": "Double ended light"
+	},
+	"6af9a297-0335-4887-836f-2334cc2f0065":
+	{
+		"title": "Street Lamp",
+		"description": "Emits light in all directions\n\nAdjustable"
+	},
+	"6af9a297-0336-4887-836f-2334cc2f0065":
+	{
+		"title": "Negative Light",
+		"description": "\n\n#ff0000Currently Not Working"
+	},
+	"25ad229d-0170-4ad6-a54e-0c5e24da8cba":
+	{
+		"title": "Spotlight Beam",
+		"description": "Indicate your position with this giant beam of light!"
+	},
+
+
+
+	//water
+	"588b04b6-02d9-438e-aae0-8a4985d33a5d":
+	{
+		"title": "Water Block - Original",
+		"description": "To be updated..."
+	},
+	"677b04b6-02d9-438e-aae0-8a4985d33a5d":
+	{
+		"title": "Water Block - Depth",
+		"description": ""
+	},
+	"dad52976-ee58-4a6e-9969-be41ebdf67f7":
+	{
+		"title": "Water Block - Texture",
+		"description": ""
+	},
+	"766e7479-7162-4ed5-99f7-d63268ab8b4e":
+	{
+		"title": "Water Block 1x1 - 3.5 deep",
+		"description": ""
+	},
+	"d14dc5c2-1029-4078-9d78-c4369e30d499":
+	{
+		"title": "Water Block 10x10 - 3.5 deep",
+		"description": ""
+	},
+
+
+
+	//balls
+	"f8ff9f84-9594-4794-b4de-f445faadcac9":
+	{
+		"title": "Soccer Ball - Futbol",
+		"description": ""
+	},
+	"699280a8-5fcb-4a97-b4da-e723a6cb2e2d":
+	{
+		"title": "Football / Rugby",
+		"description": ""
+	},
+	"262f9d5b-42da-4cc6-bc10-57d52e67f5fd":
+	{
+		"title": "Basketball",
+		"description": ""
+	},
+	"b17184d8-8dfa-4b86-8d04-38dcc7564caa":
+	{
+		"title": "Baseball",
+		"description": ""
+	},
+	"375da746-8364-4bea-a1fa-d6ee6f08cf10":
+	{
+		"title": "Golf Ball Heavy - Putting",
+		"description": ""
+	},
+	"54d32938-83f8-4d1d-ad0c-b636bf5001eb":
+	{
+		"title": "Golf Ball Medium - Pitching",
+		"description": ""
+	},
+	"7873465e-ff81-4da9-b2d5-4c4ead24fc1c":
+	{
+		"title": "Golf Ball Light - Driving",
+		"description": ""
+	},
+	"1d0ff740-36f7-4ce2-8665-a84dafc9470e":
+	{
+		"title": "Volleyball",
+		"description": ""
+	},
+	"eac6fc35-4316-4f99-9a65-b78201fec9f2":
+	{
+		"title": "Bowling Ball",
+		"description": ""
+	},
+	"fab1db4a-abac-4579-8ac6-94d5df29642d":
+	{
+		"title": "Bowling Pin",
+		"description": ""
+	},
+	"484066e4-1176-4472-877d-bffe9b0c522d":
+	{
+		"title": "Beach Ball",
+		"description": ""
+	},
+	"4284b368-91ab-4a81-83ef-dae2a847bead":
+	{
+		"title": "Boxing Dummy - (Punching Bag)",
+		"description": ""
+	},
+	"2cf4121b-50a9-483f-87ff-402c49697028":
+	{
+		"title": "Billiard Ball - Cue",
+		"description": ""
+	},
+	"90735215-bb1e-48c4-84bf-85e84e30980a":
+	{
+		"title": "Billiard Ball - 1",
+		"description": ""
+	},
+	"a43fbc2f-ad82-44da-bfd1-31485393cbd9":
+	{
+		"title": "Billiard Ball - 2",
+		"description": ""
+	},
+	"4d695672-0863-41b2-b344-6feab2e87f07":
+	{
+		"title": "Billiard Ball - 3",
+		"description": ""
+	},
+	"2fbca281-6c67-4f44-9983-6ebc06ab8af0":
+	{
+		"title": "Billiard Ball - 4",
+		"description": ""
+	},
+	"f0a0e19b-e0e9-459a-9036-2f1a7ef34590":
+	{
+		"title": "Billiard Ball - 5",
+		"description": ""
+	},
+	"7d9ba651-0c9d-44cd-8a2b-b237981d5776":
+	{
+		"title": "Billiard Ball - 6",
+		"description": ""
+	},
+	"8d7a5114-9d4b-454c-b54e-66afd9c41bbf":
+	{
+		"title": "Billiard Ball - 7",
+		"description": ""
+	},
+	"e8c15a4e-9548-4447-8949-cc4b950a3111":
+	{
+		"title": "Billiard Ball - 8",
+		"description": ""
+	},
+	"a5c66792-ae35-4fde-83e8-2bcec027723c":
+	{
+		"title": "Billiard Ball - 9",
+		"description": ""
+	},
+	"ff9cba73-09af-4a46-a232-36815c3ad037":
+	{
+		"title": "Billiard Ball - 10",
+		"description": ""
+	},
+	"e559b658-eac3-4cc1-bada-0241d545f641":
+	{
+		"title": "Billiard Ball - 11",
+		"description": ""
+	},
+	"b1850c9c-887a-4150-9d2f-188fdedea403":
+	{
+		"title": "Billiard Ball - 12",
+		"description": ""
+	},
+	"a47efb3b-111a-4396-a8ba-ddbc0cf23465":
+	{
+		"title": "Billiard Ball - 13",
+		"description": ""
+	},
+	"0ca3a832-d3b4-4d33-acd7-d4fa9b49d621":
+	{
+		"title": "Billiard Ball - 14",
+		"description": ""
+	},
+	"af407bc3-fb85-49a4-9d3b-0ce6421927a0":
+	{
+		"title": "Billiard Ball - 15",
+		"description": ""
+	},
+	"52a82f61-5134-4b24-80ac-6645306d4503":
+	{
+		"title": "Poké Ball",
+		"description": ""
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b1":
+	{
+		"title": "1 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b2":
+	{
+		"title": "2 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b3":
+	{
+		"title": "3 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b4":
+	{
+		"title": "4 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b5":
+	{
+		"title": "5 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b6":
+	{
+		"title": "6 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+	"ff44dc9a-16ba-4847-846c-091ffbf930b7":
+	{
+		"title": "7 Star Dragonball",
+		"description": "A magical wish orb found on the planet Namek. Collect all 7 to summon the dragon."
+	},
+
+
+
+
+	//firepower
+	"7a523237-1554-4b45-8b61-b2569c503259":
+	{
+		"title": "Small Cannon",
+		"description": "\"Orange Launcher\"\nCurrently works as a small cannon\n\nModel and explosion will be updated"
+	},
+	"a0a28efd-dcf9-4dfd-9557-78db9fce2576":
+	{
+		"title": "Big Cannon",
+		"description": "\"Melon Launcher\"Currently works as a big cannon\n\nModel and explosion will be updated"
+	},
+	"0d45bf5c-4090-4f0c-b977-ec6d7fffa125":
+	{
+		"title": "Cucumber CrossBow",
+		"description": "A weapon with more piercing power than a spud gun. Only destroys weak materials"
+	},
+	"afed8e20-450f-451b-8910-c9a867112b50":
+	{
+		"title": "PopCorn-on-the-Cob Launcher",
+		"description": "A grenade launcher repurposed to use Corn Cobs as ammunition"
+	},
+	"f2daeba8-d648-44d2-88d7-c1da676da9b3":
+	{
+		"title": "Spud Gun Barrel",
+		"description": "Auto-reload"
+	},
+	"3e874085-3444-4e37-8a7f-d5af52bbca8e":
+	{
+		"title": "Large Flame Thrower",
+		"description": "Throw fire, farther\n\n\n#ffff00!WARNING!\n#ffffffFire physics is new and highly experimental! Too much fire may cause performance problems! (try turning off Dynamic Lights for better performance with fire)"
+	},
+	"afa66ea2-8541-44dd-8595-63427ea95d6a":
+	{
+		"title": "Small Flame Thrower",
+		"description": "\"Not A Flame Thrower\"\n\n\n#ffff00!WARNING!\n#ffffffFire physics is new and highly experimental! Too much fire may cause performance problems! (try turning off Dynamic Lights for better performance with fire)"
+	},
+
+
+
+
+
+	//lego
+	"8b67acb7-5779-4302-8c3c-c230fea766f4":
+	{
+		"title": "Lego Brick 2x4",
+		"description": ""
+	},
+	"132bfeac-fd8e-416c-8fe2-d907f013de16":
+	{
+		"title": "Lego Brick 2x2",
+		"description": ""
+	},
+
+
+
+	//thrusters
+	"02d3c969-1a64-445e-ae57-b04d7ae66157":
+	{
+		"title": "Anti-Thruster",
+		"description": "It sucks instead of blows"
+	},
+	"d9a3763d-a876-4c52-8bed-8051a843ecf1":
+	{
+		"title": "Stable Thruster",
+		"description": "Very stable, flies straight."
+	},
+	"1039c626-5f88-4a70-9bb4-363bee0bf5ba":
+	{
+		"title": "Unstable Thruster 10%",
+		"description": "Very unstable compared to the normal thruster."
+	},
+	"dbb5f543-10a8-4c89-a21b-0fadd71a8e47":
+	{
+		"title": "Unstable Thruster 100%",
+		"description": "Things are getting a little crazy!"
+	},
+	"72631acc-bab6-4eb0-9289-291f59166144":
+	{
+		"title": "Wacky Thruster",
+		"description": "If you manage to build a flying creation with this, and still have control...you win."
+	},
+
+
+
+
+	//seasonal/festive
+	"9f4856f6-349c-449e-b1e3-b5adca334fea":
+	{
+		"title": "Large Egg",
+		"description": "I wonder what's inside?"
+	},
+	"2be714ef-df15-4bf5-a22d-482adf48e5d1":
+	{
+		"title": "Jack-o'-Lantern",
+		"description": "Halloween item\n\nDynamic light"
+	},
+	"01bfdf36-5858-4fc0-ba85-218677684cd8":
+	{
+		"title": "Ghost Wall - Concrete",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"65f218de-0209-4656-b25f-08e6e0d73772":
+	{
+		"title": "Ghost Wall - Wood",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"0ea74a7c-7fb5-49ef-ba11-27c196f87c99":
+	{
+		"title": "Ghost Wall - Metal",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"029c515a-5611-4544-885b-51835c15c2e0":
+	{
+		"title": "Ghost Wall - Caution",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"072b38ab-0c3e-4022-a7bc-74f4702f5f25":
+	{
+		"title": "Ghost Wall - Brick",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"02af1b12-eb88-4dad-988c-f772abceebda":
+	{
+		"title": "Ghost Wall - Glass",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"040afdf9-c30f-4bbb-b675-2d28822948be":
+	{
+		"title": "Ghost Wall - Glass Tiles",
+		"description": "16x16 Textured wall that can be passed through\n\nTexture direction shown with arrow"
+	},
+	"d71aa6e8-5dd5-4a51-8090-a904273b4f66":
+	{
+		"title": "Halloween Skull Launcher",
+		"description": "Spooky Scary Skull homing missles!\n\nPriority targetting in front\n\nWill avoid terrain, but destroy creations"
+	},
+
+
+
+	//wheels
+	"26aafccf-c745-4dff-ae63-61a011bdfa4c":
+	{
+		"title": "Chocolate Chip Cookie Wheel",
+		"description": ""
+	},
+	"907bad1a-5391-47e2-be73-1bf0229e68be":
+	{
+		"title": "Macadamia Nut Cookie Wheel",
+		"description": ""
+	},
+	"3e7ae369-0ae4-4243-ac34-8576d6909e15":
+	{
+		"title": "Cream Cookie Wheel - Original",
+		"description": ""
+	},
+	"bfeb5dc0-29d2-461e-b0b6-6c68ca05c0cb":
+	{
+		"title": "Cream Cookie Wheel - Golden",
+		"description": ""
+	},
+	"623b66a7-1123-484e-b67c-d544f9f90283":
+	{
+		"title": "Gigantic Wheel",
+		"description": "A ridiculously gigantic wheel.\n\n\n\nBecause reasons."
+	},
+
+
+
+
+	//misc
+	"285e6b5d-f13c-49c5-99bd-9b6a377f8357":
+	{
+		"title": "Converyor Belt Segment",
+		"description": ""
+	},
+	"285e6b5d-f13c-49c5-99bd-9b6a377f8356":
+	{
+		"title": "Converyor Belt End",
+		"description": ""
+	},
+	"31fc3648-c4c1-4e79-bb0c-06c75534307a":
+	{
+		"title": "Square Fan",
+		"description": "It blows"
+	},
+	"af6dbafb-dc20-41b8-b2a7-a1dbe2d4535e":
+	{
+		"title": "Wind Fan",
+		"description": "It blows"
+	},
+	"1e7ddd7d-6d69-432b-bace-9710ff6a5bf8":
+	{
+		"title": "Ladder",
+		"description": ""
+	},
+	"298ca3c8-3241-458f-994f-bd81f2c0ff3e":
+	{
+		"title": "Small Round Bomb",
+		"description": "Light the fuse and let it roll!"
+	},
+	"304f4a46-8796-420c-8eaa-8408990e7b1a":
+	{
+		"title": "Big Round Bomb",
+		"description": "Light the fuse and let it roll!"
+	},
+	"88ed5ad6-84e3-4450-a104-7f9f1e5b4d02":
+	{
+		"title": "Nuclear Bomb",
+		"description": "Use caution when transporting"
+	},
+
+
+
+
+
+
+	"4994dabb-2943-489a-91f3-d6275689b2e6":
+	{
+		"title": "Flag",
+		"description": "Mark your territory in a civilized way"
+	},
+
+
+	"1cb3e2b1-566c-4888-86b4-5659e9386c12":
+	{
+		"title": "Right Mannequin Hand",
+		"description": ""
+	},
+	"bb44fb6d-30ed-48c6-a537-d4c5493fd587":
+	{
+		"title": "Dwarf Clone T-pose",
+		"description": "A realistic dwarf clone for you to have fun with...no one will know"
+	},
+	"b812385f-e906-45e0-aaa8-03daf0abd16b":
+	{
+		"title": "Mod Piston (64) - Super Speed",
+		"description": "Extends 1-63 blocks\n\nSpeeds:\n30, 40, 50, 60, 70, 80, 90, 100 (fast)\n250, 500 (super fast)\n\nStronger than regular piston!"
+	},
+	"976ab4e6-236c-4ece-bcd6-8275a7bbddd1":
+	{
+		"title": "Mod Piston (64) - Super Strength",
+		"description": "Extends 1-63 blocks\n\nSpeeds:\n5, 10, 15, 20, 25 (regular)\n30, 40, 60, 80, 100 (Super Heavy)\n\nStronger than mod pistons! (Ridiculously Strong)"
+	},
+	"d676bfd3-a204-4a41-80cb-62b243cb3efe":
+	{
+		"title": "Exotic Plant - Large",
+		"description": "Decorative plant\n\n1x1x1 collision at the base of plant\n\nPaintable!"
+	},
+	"deca8e2e-96d2-497b-909c-81194afd603c":
+	{
+		"title": "Exotic Plant - Medium",
+		"description": "Decorative plant\n\n1x1x1 collision at the base of plant\n\nPaintable!"
+	},
+	"729c0363-200e-449e-8b63-2210d4dcb59d":
+	{
+		"title": "Exotic Plant - Small",
+		"description": "Decorative plant\n\n1x1x1 collision at the base of plant\n\nPaintable!"
+	},
+	"ec46b5e5-29e3-4462-83bd-020333250538":
+	{
+		"title": "Minecraft Block - Grass",
+		"description": ""
+	},
+	"fbd9ca1e-97b1-4420-839c-413bfd18071b":
+	{
+		"title": "Female Clone T-pose",
+		"description": "A realistic female dwarf clone / statue / mannequin"
+	},
+	"d41e1bf5-f7e1-471f-95e1-04b350da7b6c":
+	{
+		"title": "Sir Duck",
+		"description": "A duck with a top hat."
+	},
+	"53b82474-ea8e-4835-b28b-10c06514bfcf":
+	{
+		"title": "Fancy Duck Statuette",
+		"description": "The fanciest of all the ducks"
+	},
+	"858c147b-1aa9-474c-a572-8893f816d0ca":
+	{
+		"title": "Spare Lift",
+		"description": ""
+	},
+	"7394eac5-72b1-4cb5-af18-d4bc5230314b":
+	{
+		"title": "Spare Battery",
+		"description": "This part was hidden among the Scrap Mechanic files. It may be used as an interactive part (power source?) in survival mode, but for now it can be used as a decorative part."
+	},
+	"fdae691a-40ed-4c7c-b3bc-d22944a8cf66":
+	{
+		"title": "Security Monitor 1",
+		"description": "Holds 12 images (logic gate) so it can be used to switch between a set of 2 images, 6 different sets."
+	},
+	"227e1828-6461-4116-a418-8ed3b693969e":
+	{
+		"title": "Security Monitor 2",
+		"description": "Holds 12 images (logic gate) so it can be used to switch between a set of 2 images, 6 different sets."
+	},
+	"9ac1cad6-08f6-47a1-b369-93fa2bca48ad":
+	{
+		"title": "Hydraulic x3",
+		"description": "Anti-suspension: wants to stay compressed and resists being extended."
+	},
+	"c271edce-f521-419c-ba33-79bdddb372a4":
+	{
+		"title": "Hydraulic x8",
+		"description": "Anti-suspension: wants to stay compressed and resists being extended."
+	},
+	"39e0c1b0-93b9-4bca-a4d0-cc7d6c12f8c2":
+	{
+		"title": "Steering Wheel",
+		"description": "It's a wheel, but not the type that rolls on the ground.\nFunctions like a button so you can attach your horn."
+	}
+
+
+
+
+}

@@ -1,0 +1,4994 @@
+{
+   "partList" : [
+		{
+			"uuid": "e1ffde8e-521e-430a-901d-159545910399",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYf",
+			"color": "df7f00",
+			"seat": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.3, "z": 0.0 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 1.5, "z": 1.0 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 1.5, "z": 1.0 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "be877d33-550c-4109-9028-722f676de444",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYf",
+			"color": "df4000",
+			"steering": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.3, "z": 0.0 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 1.5, "z": 1.0 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 1.5, "z": 1.0 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "ef295a8a-9486-4f9c-8aff-14428c1bd551",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYf",
+			"color": "df7f00",
+			"steering": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": -4000.0, "z": 0.0 } }
+				],
+				"ragdollFile": "$MOD_DATA/Character/invisseat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "8e2a8e84-dafb-44fe-8bd9-af0f510ee310",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYf",
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 1250.0,
+			"physicsMaterial": "Metal",
+			"engine":
+			{
+				"type": "Petrol",
+				"gears":
+				[
+					{ "velocity": 0, "power": 0 },
+					{ "velocity": 45, "power": 8 },
+					{ "velocity": 90, "power": 16 },
+					{ "velocity": 180, "power": 32 },
+					{ "velocity": 360, "power": 64 },
+					{ "velocity": 720, "power": 128 },
+					{ "velocity": 1440, "power": 256 },
+					{ "velocity": 2880, "power": 512 },
+					{ "velocity": 5760, "power": 1024 },
+					{ "velocity": 11520, "power": 2048 },
+					{ "velocity": 23040, "power": 4096 },
+					{ "velocity": 46080, "power": 8192 },
+					{ "velocity": 92160, "power": 16384 },
+					{ "velocity": 184320, "power": 32768 },
+					{ "velocity": 368640, "power": 65536 },
+					{ "velocity": 737280, "power": 131072 },
+					{ "velocity": 1474560, "power": 262144 }
+				]
+			}
+		},
+		{
+			"uuid": "c3deac32-7ceb-4b61-a718-6cc6d7ffeee8",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYf",
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 1250.0,
+			"physicsMaterial": "Metal",
+			"engine":
+			{
+				"type": "Electric",
+				"gears":
+				[
+					{ "velocity": 0, "power": 1000 },
+					{ "velocity": 22.5, "power": 1000 },
+					{ "velocity": 45, "power": 1000 },
+					{ "velocity": 90, "power": 1000 },
+					{ "velocity": 180, "power": 1000 },
+					{ "velocity": 360, "power": 1000 },
+					{ "velocity": 720, "power": 1000 },
+					{ "velocity": 1440, "power": 1000 },
+					{ "velocity": 2880, "power": 2500 },
+					{ "velocity": 5760, "power": 5000 },
+					{ "velocity": 11520, "power": 10000 },
+					{ "velocity": 23040, "power": 25000 },
+					{ "velocity": 46080, "power": 50000 },
+					{ "velocity": 92160, "power": 100000 },
+					{ "velocity": 184320, "power": 150000 },
+					{ "velocity": 368640, "power": 200000 },
+					{ "velocity": 737280, "power": 250000 }
+				]
+			}
+		},
+		{
+			"uuid": "f6aca4b7-4388-48a2-8689-e1280e07afdc",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+									}
+								],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_piston_cube_off.obj",
+								"pose0": "$MOD_DATA/Objects/Mesh/polygon_piston_cube_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z":1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"piston": {
+				"length": 16,
+				"defaultRange": 3,
+				"speedLevels": [
+					{ "speed": 2.0 },
+					{ "speed": 4.0 },
+					{ "speed": 6.0 },
+					{ "speed": 8.0 },
+					{ "speed": 10.0 },
+					{ "speed": 12.0 },
+					{ "speed": 14.0 },
+					{ "speed": 16.0 },
+					{ "speed": 18.0 },
+					{ "speed": 20.0 }
+				],
+				"defaultSpeedLevel": 2,
+				"force": 100000.0
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "e6f5d6e9-2258-4693-9678-a283d9116b11",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+									}
+								],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_piston_pipe_off.obj",
+								"pose0": "$MOD_DATA/Objects/Mesh/polygon_piston_pipe_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z":1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"piston": {
+				"length": 16,
+				"defaultRange": 3,
+				"speedLevels": [
+					{ "speed": 2.0 },
+					{ "speed": 4.0 },
+					{ "speed": 6.0 },
+					{ "speed": 8.0 },
+					{ "speed": 10.0 },
+					{ "speed": 12.0 },
+					{ "speed": 14.0 },
+					{ "speed": 16.0 },
+					{ "speed": 18.0 },
+					{ "speed": 20.0 }
+				],
+				"defaultSpeedLevel": 2,
+				"force": 100000.0
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "3c11a913-e2a8-454c-a89c-61bd957fd3da",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+									}
+								],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_piston_minipipe_off.obj",
+								"pose0": "$MOD_DATA/Objects/Mesh/polygon_piston_minipipe_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "808080",
+			"box": { "x": 1, "y": 1, "z":1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"piston": {
+				"length": 16,
+				"defaultRange": 3,
+				"speedLevels": [
+					{ "speed": 2.0 },
+					{ "speed": 4.0 },
+					{ "speed": 6.0 },
+					{ "speed": 8.0 },
+					{ "speed": 10.0 },
+					{ "speed": 12.0 },
+					{ "speed": 14.0 },
+					{ "speed": 16.0 },
+					{ "speed": 18.0 },
+					{ "speed": 20.0 }
+				],
+				"defaultSpeedLevel": 2,
+				"force": 100000.0
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "a0897b4d-3e9e-47ff-ad44-de518845ff9f",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/transparent.tga",
+                           "$MOD_DATA/Objects/Textures/default_asg.tga",
+                           "$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_suspension3_cube_off.obj",
+								"pose0": "$MOD_DATA/Objects/Mesh/polygon_suspension3_cube_on.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "808080",
+			"cylinder": { "diameter": 1, "depth": 3, "axis": "Z" },
+			"physicsMaterial": "Plastic",
+			"spring": {
+				"length": 3,
+				"defaultStiffnessLevel" :  10,
+				"stiffnessLevels": [
+					{ "stiffness": 0 },
+					{ "stiffness": 500 },
+					{ "stiffness": 1000 },
+					{ "stiffness": 2000 },
+					{ "stiffness": 3000 },
+					{ "stiffness": 4000 },
+					{ "stiffness": 5000 },
+					{ "stiffness": 7500 },
+					{ "stiffness": 10000 },
+					{ "stiffness": 15000 },
+					{ "stiffness": 20000 },
+					{ "stiffness": 25000 },
+					{ "stiffness": 30000 },
+					{ "stiffness": 35000 },
+					{ "stiffness": 40000 },
+					{ "stiffness": 45000 },
+					{ "stiffness": 50000 },
+					{ "stiffness": 75000 },
+					{ "stiffness": 100000 },
+					{ "stiffness": 200000 }
+				]
+			},
+			"sticky": "-Z"
+		},
+		{
+			"uuid": "d772864c-7f6e-4353-8be0-a6aef7de2d15",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/transparent.tga",
+                           "$MOD_DATA/Objects/Textures/default_asg.tga",
+                           "$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_suspension3_pipe_off.obj",
+								"pose0": "$MOD_DATA/Objects/Mesh/polygon_suspension3_pipe_on.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "808080",
+			"cylinder": { "diameter": 1, "depth": 3, "axis": "Z" },
+			"physicsMaterial": "Plastic",
+			"spring": {
+				"length": 3,
+				"defaultStiffnessLevel" :  2,
+				"stiffnessLevels": [
+					{ "stiffness": 0 },
+					{ "stiffness": 500 },
+					{ "stiffness": 1000 },
+					{ "stiffness": 2000 },
+					{ "stiffness": 3000 },
+					{ "stiffness": 4000 },
+					{ "stiffness": 5000 },
+					{ "stiffness": 7500 },
+					{ "stiffness": 10000 },
+					{ "stiffness": 15000 },
+					{ "stiffness": 20000 },
+					{ "stiffness": 25000 },
+					{ "stiffness": 30000 },
+					{ "stiffness": 35000 },
+					{ "stiffness": 40000 },
+					{ "stiffness": 45000 },
+					{ "stiffness": 50000 },
+					{ "stiffness": 75000 },
+					{ "stiffness": 100000 },
+					{ "stiffness": 200000 }
+				]
+			},
+			"sticky": "-Z"
+		},
+		{
+			"uuid": "fa709911-4ad6-4546-ac92-2d4adbd89917",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/transparent.tga",
+                           "$MOD_DATA/Objects/Textures/default_asg.tga",
+                           "$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_suspension3_minipipe_off.obj",
+								"pose0": "$MOD_DATA/Objects/Mesh/polygon_suspension3_minipipe_on.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "808080",
+			"cylinder": { "diameter": 1, "depth": 3, "axis": "Z" },
+			"physicsMaterial": "Plastic",
+			"spring": {
+				"length": 3,
+				"defaultStiffnessLevel" :  2,
+				"stiffnessLevels": [
+					{ "stiffness": 0 },
+					{ "stiffness": 500 },
+					{ "stiffness": 1000 },
+					{ "stiffness": 2000 },
+					{ "stiffness": 3000 },
+					{ "stiffness": 4000 },
+					{ "stiffness": 5000 },
+					{ "stiffness": 7500 },
+					{ "stiffness": 10000 },
+					{ "stiffness": 15000 },
+					{ "stiffness": 20000 },
+					{ "stiffness": 25000 },
+					{ "stiffness": 30000 },
+					{ "stiffness": 35000 },
+					{ "stiffness": 40000 },
+					{ "stiffness": 45000 },
+					{ "stiffness": 50000 },
+					{ "stiffness": 75000 },
+					{ "stiffness": 100000 },
+					{ "stiffness": 200000 }
+				]
+			},
+			"sticky": "-Z"
+		},
+		{
+			"uuid": "07f3c676-de74-4ef5-96f9-69a2d500f4f9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_dif.tga",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MicroThruster1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZflip",
+			"color": "df7f00",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"thruster":
+			{
+				"levels":
+				[
+					{ "averageForce": 2222.22, "forceVariation": 0 },
+					{ "averageForce": 3333.33, "forceVariation": 0 },
+					{ "averageForce": 5000, "forceVariation": 0 },
+					{ "averageForce": 7500, "forceVariation": 0 },
+					{ "averageForce": 11250, "forceVariation": 0 },
+					{ "averageForce": 16875, "forceVariation": 0 },
+					{ "averageForce": 25312.5, "forceVariation": 0 },
+					{ "averageForce": 37968.5, "forceVariation": 0 },
+					{ "averageForce": 56953.25, "forceVariation": 0 },
+					{ "averageForce": 85429.875, "forceVariation": 0 },
+					{ "averageForce": 128144.31, "forceVariation": 0 },
+					{ "averageForce": 192216.97, "forceVariation": 0 },
+					{ "averageForce": 288325.96, "forceVariation": 0 }
+				]
+			}
+		},
+   		{
+			"uuid": "e7253378-d096-44ac-b213-2f83ad94a68a",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_sensor.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "505050",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "+Y-Y-Z+X-X",
+			"sensor": { }
+		},
+   		{
+			"uuid": "dc96fa12-0f00-4a41-8c12-77c89252492d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "505050",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"button": { }
+		},
+   		{
+			"uuid": "49019ff5-8676-4d30-8c39-f4c1c3bb75bf",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "505050",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"lever": { }
+		},
+ 		{
+			"uuid": "9c193e8c-20eb-47a7-ac6d-7b42788c4aeb",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Block.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "7f00df",
+			"box": { "x": 1, "y": 1, "z":1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"timedjoint": { }
+		},
+  	
+   	
+   	
+   	
+   	
+   	
+   	
+   	{
+			"uuid": "45cd29d3-c906-461b-8a6e-34ee6d0052bb",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_6WayPipe.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "505050",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "99644272-419d-4c2a-baa3-5637de77e06c",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_edgemount_pipe.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"cylinder": { "diameter": 1, "depth": 1, "axis": "Y" },
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		
+		
+		{
+			"uuid": "67ad6227-be7f-45c5-98f9-ef4108b00f32",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_BlockPipeAdapter.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "FlipY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "0e534b62-cf90-46f5-9d75-602d85a70d25",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/BlockCurveAdapter.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "58eff374-4599-4751-88d4-13eb13987a82",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/WedgeCurveAdapter.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "0134be76-aeea-4bce-977e-f6fcfab24c36",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "62e3c9f4-ce9e-4ef7-83e8-c7ce3d8e2a2b",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "12e692ba-390e-4bb4-a234-d625dffd3c62",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1x3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "61ce1517-5edf-402b-9835-63ed4128f586",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1x4.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d251beac-80be-4305-9cec-3aac02e8d073",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 6, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "0c2b2f0d-0f3d-4da4-a46d-d85c1a28f6a0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1x8.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 8, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "7bfbb036-a3cd-49a2-8165-2ea304eb9d4e",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 10, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "c7318c80-440b-444c-b44d-50b1c21bb841",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+//			"previewRotation": [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": 0.4, "y": -1.0, "z": -0.4  },
+					{ "x": 0.4, "y": 0.4, "z": 1.0 },
+					{ "x": -1.0, "y": 0.4, "z": -0.4  }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "5712abea-fd2f-47f0-9fa5-ab8ab0606eb2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": 0.12, "y": 0.12, "z": 0.12 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "82876ac1-96b4-41af-8944-c2e5e6fa7ed2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1x3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": 0.12, "y": 0.12, "z": 0.12 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "1a359b1b-30c0-4abe-abd0-a779bca918f5",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1x4.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": 0.12, "y": 0.12, "z": 0.12 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "44670048-1e87-49e5-bdbb-e5f73a6d5249",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 6, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": 0.12, "y": 0.12, "z": 0.12 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "6f971e55-e235-4986-a623-2fce87f16909",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1x8.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 8, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": 0.12, "y": 0.12, "z": 0.12 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "2e937a3b-9c6c-4d2e-8d59-1ec112a3c9f6",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve31_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 10, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": 0.12, "y": 0.12, "z": 0.12 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "7bdcb7c6-faee-479b-8c0b-f9994798fdcd",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "54af4cfc-1ef7-46f8-ad5f-a8fecaf753bf",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "51c16c06-5695-49b9-86b6-3f3ddda238f3",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "48309f46-1c07-44a6-ba35-2b193199a8ac",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "61485a6a-3fa2-455d-9492-898a893a3220",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1x3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "94716b61-12aa-4fdc-bc3e-9654810c69ab",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1x3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 3,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "4182f8df-b212-4161-9831-4ad12a12a3b5",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1x4.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "9ad7cd7c-6854-48eb-8595-620af675e881",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1x4.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 4,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "625995a0-5459-494f-8c06-b4a0e71ee017",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 6, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d6544e85-ac13-4d49-8892-30d87ad224de",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 6,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "e9c907d5-f5b9-4b57-ab9b-7887bc061071",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1x8.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 8, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "5a45164d-6e35-40b8-b391-705c250896e2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1x8.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 8,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "2d6bd82e-8d01-4cb7-859e-c0fad53a17e0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32L_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 10, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -0.23, "y": -1.0, "z": 0.85 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 0.85, "y": -1.0, "z": -0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "fd39f4f9-9f8d-4472-bb51-10bf0a5f91a0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve32R_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 10,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.85, "y": -0.23, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -0.23, "y": 0.85, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d8ca105c-537e-4e09-81d8-32e684bec08e",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "c5dad63a-608f-4ae3-98d4-552b747eb0e2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d97b4a9d-f3a4-43d9-b2fb-6d98588d0974",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 3,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "7c62f482-9fb5-416a-8a2c-2bf23abd7d90",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge1x4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 4,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "5d973358-0b79-4810-bc99-697296a546e7",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 6,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "6698ba13-76f1-4e29-927b-33445fe4b457",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge1x8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 8,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "f5dc32bf-2ba3-46df-9ccf-dac36fd2972d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 10,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "7a7590b4-0cc7-4845-866b-4b075c6ad63b",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge31_1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "8158d6c4-287f-4149-81fd-235c2f5984b0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge31_1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "3ca23899-3281-467a-97a1-6e39bc746978",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge31_1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 3,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "18d4fd3c-3675-45f4-878f-ecb80fa5a5ff",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge31_1x4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 4,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "6f212847-0435-4c8b-a278-cad71bfd0672",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge31_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 6,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "e616c02c-0a81-43b6-8c21-2a0099c4b20f",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge31_1x8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 8,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "3f25ce2b-6512-4e8c-ae0d-381580405341",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge31_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 10,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "c8c95272-ec75-45d8-8d1c-8ed2eb0d11ae",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32L_1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "1a91df66-1659-49e4-acbb-7599405ee424",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32R_1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "f9808c51-2cdb-4821-bf05-1641df8509c0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32L_1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "e3a63e63-739a-466d-a578-647971764c6b",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32R_1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 3,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d59c677b-0988-48de-89bf-db7d1211b358",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32L_1x4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "8a95692e-6efe-4c38-8bc4-d925eadf0f71",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32R_1x4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 4,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "5af96019-5cbb-4fa3-a44a-cf6c949579f2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge32L_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 6, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "3349c842-8389-4de0-9597-7d821e1a0eab",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge32R_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 6,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "485979ef-bbf0-42b3-baf4-6d5ee97d3dab",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32L_1x8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 8, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "c301f146-27c8-4a7b-afc5-eb9037d8dd63",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge32R_1x8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 8,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "99431262-409f-481b-b1cf-a56778171ce6",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge32L_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 10, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "43020987-1367-47df-963d-60652b596fdf",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge32R_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 10,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "338f7714-1d5e-4882-97e6-e2eac3ab0864",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge41_1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "21b217f8-eeb4-4e56-a71d-4c9759993e24",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge41_1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "61794b4c-2e68-4c0f-9cda-beae1fed17ae",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge41_1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "2ef27db6-39da-4d65-8cb2-509e142a4189",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge41_1x4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "98856cdb-2cf5-4e37-b487-b814677b17ab",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge41_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 6, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d78c9bd8-5aa9-4916-99a4-988b5433d72d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge41_1x8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 8, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "779da945-3748-45c6-b8a8-8729f4995ad9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge41_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 10, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "1775ffe0-9d7b-4a05-a5d0-2e106eafe556",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge43_1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "bfb7cf58-cbf5-4515-873a-24091a0ca4bf",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge43_1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "18856bc0-21fb-405f-a688-6c5a364a43ed",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge43_1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "906021e5-5759-42ed-8590-a20201d977d9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge43_1x4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d03fcc1f-40fc-44aa-b7cd-c3f5bd099648",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge43_1x6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 6, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "64b90c0e-c1a0-4757-9e6c-3650671d9dfc",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Wedge43_1x8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 8, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "24c5529b-f2b5-46e3-918d-4b9207e9ea2a",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Wedge43_1xA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 10, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "f2c4b6ab-5243-404e-9921-b0817e9365a6",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_pyramid1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 0.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "16923577-baa2-4c66-9a92-55ae8038dedd",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_pyramid2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "e4a2225b-2783-4324-99d5-2c3a827acec1",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_pyramid3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 0.5, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "04adb1e0-fcef-43c2-a527-f8122ddbc4df",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_pyramid4.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "9d851007-4dd5-4223-b1fa-83c3ec7d9774",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/pyramid6.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 3, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "15f36ae8-014a-4421-9354-5bea4e3856c7",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_pyramid8.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 4, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "4d8a1ba0-ab4b-4e04-9da9-f2c0edf09de5",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/pyramidA.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 5, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "682ae77c-317e-46b7-a61d-2cb458791de2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/NoseCone1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d2ffe926-3198-4539-bb52-f75dd294c1d5",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/NoseCone1x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "19ede7ed-8349-432b-adea-628662700e7d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingMain.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.0, "y": 1.0, "z": 1.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "9191e12c-cff2-4f96-ab43-2cf8e418b288",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingWedge1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.2, "y": 1.0, "z": -1.0 },
+					{ "x": 0.2, "y": -1.0, "z": -1.0 },
+					{ "x": 0.2, "y": -1.0, "z": 1.0 },
+					{ "x": -0.2, "y": 1.0, "z": -1.0 },
+					{ "x": -0.2, "y": -1.0, "z": -1.0 },
+					{ "x": -0.2, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "c4b971ef-2097-4219-8837-5cf997fc97a9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingWedge1x2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.2, "y": 1.0, "z": -1.0 },
+					{ "x": 0.2, "y": -1.0, "z": -1.0 },
+					{ "x": 0.2, "y": -1.0, "z": 1.0 },
+					{ "x": -0.2, "y": 1.0, "z": -1.0 },
+					{ "x": -0.2, "y": -1.0, "z": -1.0 },
+					{ "x": -0.2, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "dc57888e-1065-4ec7-bcc7-ff2aa62a9051",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingWedge1x3.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 3,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.2, "y": 1.0, "z": -1.0 },
+					{ "x": 0.2, "y": -1.0, "z": -1.0 },
+					{ "x": 0.2, "y": -1.0, "z": 1.0 },
+					{ "x": -0.2, "y": 1.0, "z": -1.0 },
+					{ "x": -0.2, "y": -1.0, "z": -1.0 },
+					{ "x": -0.2, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "2bb5c459-6747-4bd6-a768-33b84325944c",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_PropTip.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "136d6d93-4721-49c0-a70f-95ef86508075",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingT.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 0.0 },
+					{ "x": -1.0, "y": 1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "b2249148-3fc3-47a6-910d-1319f284d5ce",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingX.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "8bb89171-f99b-4f9a-aba0-7f45dd8cf873",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingAngle.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": 0.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": -1.0, "y": 0.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "ba003566-9c19-4033-8233-43fd8a1f4a5d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingToBlock.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY2Z",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "0c068bc7-5fdf-4cb7-8bc8-413c18662c97",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WingToPipe.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "FlipY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 1.0, "z": 1.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "bc4d0c62-fb4c-4718-91a4-2994d181897c",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanel.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY2Z",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.015,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "6d60e6dd-da4d-4754-91dc-23b7b5b55679",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanelAngle.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.015,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "f1b56bdf-18a5-4738-9079-bf8bf94662bf",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanelRounded.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.41, "y": 0.41, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -0.8 },
+					{ "x": -1.0, "y": -1.0, "z": -0.8 },
+					{ "x": 1.0, "y": -1.0, "z": -0.8 },
+					{ "x": 0.41, "y": 0.41, "z": -0.8 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "46d74537-111e-4ec4-ace9-c9e5829ef7b9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanelCurve.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.41, "y": -1.0, "z": 0.41 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.8, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.8 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 },
+					{ "x": 0.41, "y": 1.0, "z": 0.41 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 0.8, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 0.8 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "35ec6771-29c4-4b35-a4a3-863e350d9a20",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanelWedge.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY2Z",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "c4c721ac-74a2-4129-97e0-6a6de7373702",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfaceWingConnector.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": 0.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "7946ec1c-0500-4124-aee1-f5084a232d46",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePipeConnector.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 0.9 },
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.0, "y": -0.8, "z": 0.9 },
+					{ "x": 1.0, "y": -0.8, "z": 0.0 },
+					{ "x": 1.0, "y": -0.8, "z": -1.0 },
+					{ "x": -1.0, "y": -0.8, "z": -1.0 },
+					{ "x": -1.0, "y": -0.8, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "381f8afa-4531-4d86-ba51-7f1c8b3ab504",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfaceSmallPipeConnector.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -0.5, "y": -1.0, "z": -1.0 },
+					{ "x": -0.5, "y": -1.0, "z": 0.0 },
+					{ "x": -0.35, "y": -1.0, "z": 0.35 },
+					{ "x": 0.0, "y": -1.0, "z": 0.5 },
+					{ "x": 0.35, "y": -1.0, "z": 0.35 },
+					{ "x": 0.5, "y": -1.0, "z": 0.0 },
+					{ "x": 0.5, "y": -1.0, "z": -1.0 },
+					{ "x": -0.5, "y": -0.8, "z": -1.0 },
+					{ "x": -0.5, "y": -0.8, "z": 0.0 },
+					{ "x": -0.35, "y": -0.8, "z": 0.35 },
+					{ "x": 0.0, "y": -0.8, "z": 0.5 },
+					{ "x": 0.35, "y": -0.8, "z": 0.35 },
+					{ "x": 0.5, "y": -0.8, "z": 0.0 },
+					{ "x": 0.5, "y": -0.8, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "ddb14f86-0a5c-45ee-85e4-1fb7bf845ee6",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanelSmall.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.5, "y": -1.0, "z": -1.0 },
+					{ "x": -0.5, "y": -1.0, "z": -1.0 },
+					{ "x": -0.5, "y": -1.0, "z": 1.0 },
+					{ "x": 0.5, "y": -1.0, "z": 1.0 },
+					{ "x": 0.5, "y": -0.8, "z": -1.0 },
+					{ "x": -0.5, "y": -0.8, "z": -1.0 },
+					{ "x": -0.5, "y": -0.8, "z": 1.0 },
+					{ "x": 0.5, "y": -0.8, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "cf638483-9ad1-4a6e-9d4e-4e777a459732",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SurfacePanelEdgeConnector.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY2Z",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		
+		{
+			"legacyId": 4136,
+			"uuid": "036fb674-45df-11e6-beb8-9e71128cae77", 
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/default_dif.tga",
+												"$MOD_DATA/Objects/Textures/default_asg.tga",
+												"$MOD_DATA/Objects/Textures/default_nor.tga"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/Wedge2x3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropWedge",
+			"color": "505050",
+			"density": 250.0,
+			"sticky": "-X+X-Y-Z",
+			"hull": { 
+				"x": 1, "y": 2, "z": 3, "margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "78f45ec9-d95e-4f35-b62f-4eb8f756c170",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/Curve2x3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX2",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 3,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.23, "z": 0.85 },
+					{ "x": -1.0, "y": 0.41, "z": 0.41 },
+					{ "x": -1.0, "y": 0.85, "z": -0.23 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -0.23, "z": 0.85 },
+					{ "x": 1.0, "y": 0.41, "z": 0.41 },
+					{ "x": 1.0, "y": 0.85, "z": -0.23 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"legacyId": 4137,
+			"uuid": "036fbb9c-45df-11e6-beb8-9e71128cae77", 
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/default_dif.tga",
+												"$MOD_DATA/Objects/Textures/default_asg.tga",
+												"$MOD_DATA/Objects/Textures/default_nor.tga"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/CurveWedgeConcave1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropWedge",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1, "margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -0.8 },
+					{ "x": -1.0, "y": 1.0, "z": -0.8 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -0.8, "z": 1.0 },
+					{ "x": -1.0, "y": -0.8, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-X+X-Y-Z"
+		},
+		{
+			"legacyId": 4138,
+			"uuid": "036fbc96-45df-11e6-beb8-9e71128cae77", 
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/default_dif.tga",
+												"$MOD_DATA/Objects/Textures/default_asg.tga",
+												"$MOD_DATA/Objects/Textures/default_nor.tga"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/CurveWedgeConcave2x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropWedge",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 2, "z": 2, "margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -0.90 },
+					{ "x": -1.0, "y": 1.0, "z": -0.90 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -0.90, "z": 1.0 },
+					{ "x": -1.0, "y": -0.90, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-X+X-Y-Z"
+		},
+		{
+			"legacyId": 4139,
+			"uuid": "036fbd72-45df-11e6-beb8-9e71128cae77", 
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/default_dif.tga",
+												"$MOD_DATA/Objects/Textures/default_asg.tga",
+												"$MOD_DATA/Objects/Textures/default_nor.tga"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/CurveWedgeConcave1x2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropWedge",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2, "margin": 0.01,
+				"pointList": [
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -0.90 },
+					{ "x": -1.0, "y": 1.0, "z": -0.90 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -0.8, "z": 1.0 },
+					{ "x": -1.0, "y": -0.8, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-X+X-Y-Z"
+		},
+		{
+			"uuid": "50ebd601-328c-41ed-bf23-f9547439f636",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MiniPipeAngle1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": -1.0, "y": 0.0, "z": 0.0 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "29c6e324-8e9c-427f-8d1d-1ff3da388c34",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MiniPipeAngle2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "505050",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": -0.5, "y": 0.0, "z": 1.0 },
+					{ "x": 0.5, "y": 0.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "a8a35f64-0d52-4ec0-83a6-0df1254a4a8b",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MiniPipeMount.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.0175,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "a1270b28-5d8f-48f0-8c87-524d7f06e804",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MiniPipeMount2.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY2Z",
+			"previewRotation": [ 0, -1, 0, 1, 0, 0, 0, 0, 0 ],
+			"color": "505050",
+			"hull": { 
+				"x": 2, "y": 1, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": -0.5, "y": 1.0, "z": 0.0 },
+					{ "x": 0.1, "y": 1.0, "z": -1.0 },
+					{ "x": 0.1, "y": -1.0, "z": -1.0 },
+					{ "x": -0.5, "y": -1.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+   	{
+			"uuid": "666a00c0-4ec2-4bb4-86e3-fa7aa2969f9c",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_dif.tga",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MiniPipeAdaptor.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "FlipZ",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": 1.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		
+   	{
+			"uuid": "8b018c61-7956-482f-b000-6bf162ffb5a9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/half_block.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY2Z",
+			"color": "808080",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -0.1, "z": -1.0 },
+					{ "x": -1.0, "y": -0.1, "z": 1.0 },
+					{ "x": 1.0, "y": -0.1, "z": -1.0 },
+					{ "x": 1.0, "y": -0.1, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "2227c574-1b41-46f1-8cd4-d043f16cc883",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/InnerCornerConvexCurve2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "38df7c1d-e2cb-486a-b79b-342a94f3919f",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/InnerCornerConvexCurve3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d89323c2-ac60-4cd0-a5dd-ef7eff78b6f0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/concave_curve_flush_1x1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "a34e73f7-35d6-4244-8386-fa8399f9f059",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/surface_panel_inside_corner_2way.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d3cd64da-32a5-4adc-984a-4e2526500fe9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/surface_panel_inside_corner_3way.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "8e73077c-67db-41e4-ba1f-a7c08f231151",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/polygon_wedge_insidecorner.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYX",
+			"color": "505050",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"density": 250.0,
+			"sticky": "+X-X-Y+Z-Z",
+			"physicsMaterial": "Plastic"
+		}
+   	
+   ]
+}

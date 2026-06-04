@@ -1,0 +1,2942 @@
+{
+   "partList" : [
+		{
+			"uuid": "5ab5c102-f1ad-4e6f-9c5a-b465111e6389",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_seat.mesh"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "df4000",
+			"steering": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": -0.2, "z": 0.25 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": -0.25, "z": 1.5 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": -0.25, "z": 1.5 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": {
+				"x": 4, "y": 4, "z": 4,
+				"pointList": [
+					{ "x": -0.88, "y": -1.0, "z": 1.0 },
+					{ "x": 0.88, "y": -1.0, "z": 1.0 },
+					{ "x": -0.53, "y": 0.72, "z": -0.93 },
+					{ "x": 0.53, "y": 0.72, "z": -0.93 },
+					{ "x": -0.87, "y": -1.0, "z": -0.96 },
+					{ "x": 0.87, "y": -1.0, "z": -0.96 },
+					{ "x": -0.44, "y": 0.71, "z": -0.52 },
+					{ "x": 0.44, "y": 0.71, "z": -0.52 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "3ec35e60-b6a9-4e9b-a561-9db58de71398",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_bikeseat_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_bikeseat_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_bikeseat_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_bikeseat.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "df4000",
+			"steering": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.36, "z": 0.8 } },
+					{ "name": "LeftForeArm", "offset": { "x": 0.92, "y": 0.456, "z": 2.024 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -0.92, "y": 0.456, "z": 2.024 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": { 
+				"x": 3, "y": 4, "z": 3,
+				"pointList": [
+					{ "x": -0.65, "y": -1.0, "z": 0.65 },
+					{ "x": 0.65, "y": -1.0, "z": 0.65 },
+					{ "x": -0.57, "y": 0.0, "z": 0.7 },
+					{ "x": 0.51, "y": 0.0, "z": 0.7 },
+					{ "x": -0.5, "y": 1.0, "z": -0.74 },
+					{ "x": 0.42, "y": 0.1, "z": -0.74 },
+					{ "x": -0.65, "y": -1.0, "z": -0.65 },
+					{ "x": 0.65, "y": -1.0, "z": -0.65 },
+					{ "x": 0.0, "y": 1.0, "z": -0.21 },
+					{ "x": -0.5, "y": 0.89, "z": -0.21 },
+					{ "x": 0.42, "y": 0.89, "z": -0.21 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "1a568186-a889-4d64-835c-b5c720dcb813",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_toilet_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_toilet_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_toilet_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_toilet.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "df7f00",
+			"steering": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.55, "z": 0.9 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.5, "z": 1.5 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.5, "z": 1.5 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": { 
+				"x": 3, "y": 4, "z": 3,
+				"pointList": [
+					{ "x": -0.65, "y": -1.0, "z": 0.65 },
+					{ "x": 0.65, "y": -1.0, "z": 0.65 },
+					{ "x": -0.57, "y": 0.0, "z": 0.7 },
+					{ "x": 0.51, "y": 0.0, "z": 0.7 },
+					{ "x": -0.5, "y": 1.0, "z": -0.74 },
+					{ "x": 0.42, "y": 0.1, "z": -0.74 },
+					{ "x": -0.65, "y": -1.0, "z": -0.65 },
+					{ "x": 0.65, "y": -1.0, "z": -0.65 },
+					{ "x": 0.0, "y": 1.0, "z": -0.21 },
+					{ "x": -0.5, "y": 0.89, "z": -0.21 },
+					{ "x": 0.42, "y": 0.89, "z": -0.21 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "c490e81d-4dd2-461a-a532-354ae3755e68",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_bathtub.fbx"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z-X+X",
+			"color": "fe9f3e",
+			"steering": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.40, "z": -1.5 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.7, "y": 1.3, "z": -0.5 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.7, "y": 1.3, "z": -0.5 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/bath_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": {
+				"x": 4, "y": 3, "z": 7,
+				"pointList": [
+					{ "x": -0.93, "y": -0.99, "z": -0.41 },
+					{ "x": -0.76, "y": -0.99, "z": -0.59 },
+					{ "x": -0.40, "y": -0.99, "z": -0.72 },
+					{ "x": -0.11, "y": -0.99, "z": -0.77 },
+					{ "x": -0.99, "y": 0.106, "z": -0.60 },
+					{ "x": -0.81, "y": 0.10, "z": -0.79 },
+					{ "x": -0.43, "y": 0.099, "z": -0.94 },
+					{ "x": -0.12, "y": 0.098, "z": -0.99 },
+					{ "x": -0.93, "y": -0.99, "z": 0.83 },
+					{ "x": -0.99, "y": 0.108, "z": 0.88 },
+					{ "x": -0.74, "y": -0.99, "z": 0.93 },
+					{ "x": -0.79, "y": 0.10, "z": 0.99 },
+					{ "x": -0.96, "y": 0.70, "z": -0.63 },
+					{ "x": -0.99, "y": 0.70, "z": 0.88 },
+					{ "x": -0.77, "y": 0.70, "z": -0.81 },
+					{ "x": -0.40, "y": 0.70, "z": -0.95 },
+					{ "x": -0.11, "y": 0.70, "z": -0.99 },
+					{ "x": -0.80, "y": 0.70, "z": 0.99 },
+					{ "x": 0.93, "y": -0.99, "z": -0.41 },
+					{ "x": 0.76, "y": -0.99, "z": -0.59 },
+					{ "x": 0.40, "y": -0.99, "z": -0.72 },
+					{ "x": 0.11, "y": -0.99, "z": -0.77 },
+					{ "x": 0.99, "y": 0.10, "z": -0.60 },
+					{ "x": 0.81, "y": 0.10, "z": -0.79 },
+					{ "x": 0.43, "y": 0.099, "z": -0.94 },
+					{ "x": 0.12, "y": 0.098, "z": -0.99 },
+					{ "x": 0.93, "y": -0.99, "z": 0.83 },
+					{ "x": 0.99, "y": 0.108, "z": 0.88 },
+					{ "x": 0.74, "y": -0.99, "z": 0.93 },
+					{ "x": 0.79, "y": 0.108, "z": 0.99 },
+					{ "x": 0.96, "y": 0.70, "z": -0.63 },
+					{ "x": 0.99, "y": 0.70, "z": 0.88 },
+					{ "x": 0.77, "y": 0.70, "z": -0.81 },
+					{ "x": 0.40, "y": 0.70, "z": -0.95 },
+					{ "x": 0.11, "y": 0.70, "z": -0.99 },
+					{ "x": 0.79, "y": 0.70, "z": 0.99 }
+				]
+			},
+			"density": 700.0,
+			"physicsMaterial": "Metal",
+		},
+		{
+			"uuid": "0479cf0c-0636-4c1e-88b9-10b971f633ae",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_nor.tga"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightCone"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightFlare"
+                            }
+                        ],
+                        "mesh": "$GAME_DATA/Objects/Mesh/lights/obj_light_headlight_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/lights/obj_light_headlight_on.fbx"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "ffff66",
+			"cylinder": { "diameter": 1, "depth": 1, "margin": 0.25, "axis": "Z" },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"spotlight": {
+
+				"coneAngle": 60,
+
+				"coneFade": 0.5,
+
+				"minRange": 0.0,
+
+				"maxRange": 19.0,
+
+				"defaultLuminance": 50,
+
+				"color": "ffff66",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			}
+		},
+		{
+			"uuid": "6af9a297-0332-4887-836f-2334cc2f0065",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+							{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/theatre_light_dif.png",
+                                    "$MOD_DATA/Objects/Textures/theatre_light_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightCone"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_nor.tga"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightFlare"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/theatre_light_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/theatre_light_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "eeeeee",
+			"box": { "x": 1, "y": 1, "z": 3 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"spotlight": {
+
+				"coneAngle": 5,
+
+				"coneFade": 1.0,
+
+				"minRange": 0.0,
+
+				"maxRange": 35.0,
+
+				"defaultLuminance": 50,
+
+				"color": "eeeeee",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			}
+		},
+		{
+			"uuid": "6af9a297-0333-4887-836f-2334cc2f0065",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/street_lamp_dif.png",
+                                    "$MOD_DATA/Objects/Textures/street_lamp_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightCone"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightFlare"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/searchlight_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/searchlight_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "eeeeee",
+			"cylinder": { "diameter": 1, "depth": 2, "margin": 0.25, "axis": "Z" },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"spotlight": {
+
+				"coneAngle": 2.5,
+
+				"coneFade": 0.8,
+
+				"minRange": 15.0,
+
+				"maxRange": 35.0,
+
+				"defaultLuminance": 75,
+
+				"color": "eeeeee",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			}
+		},
+		{
+			"uuid": "6af9a297-0334-4887-836f-2334cc2f0065",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightFlare"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlight_nor.tga"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+							{
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightCone"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/double_light_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/double_light_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZY",
+			"color": "df0000",
+			"cylinder": { "diameter": 1, "depth": 1, "margin": 0.25, "axis": "Z" },
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-X+X-Y+Y-Z",
+			"spotlight": {
+
+				"coneAngle": 25,
+
+				"coneFade": 0.5,
+
+				"minRange": 0.0,
+
+				"maxRange": 19.0,
+
+				"defaultLuminance": 50,
+
+				"color": "df0000",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			}
+		},
+		{
+			"uuid": "6af9a297-0335-4887-836f-2334cc2f0065",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/street_lamp_dif.png",
+                                    "$MOD_DATA/Objects/Textures/street_lamp_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            }                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/street_lamp_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/street_lamp_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYNegYmXmZ",
+			"sticky": "+Y-Y",
+			"color": "ffff66",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": 0.25, 	"y": -1.0, 	"z": 0.25 },
+					{ "x": 0.25, 	"y": -1.0, 	"z": -0.25 },
+					{ "x": -0.25, 	"y": -1.0, 	"z": -0.25 },
+					{ "x": -0.25, 	"y": -1.0, 	"z": 0.25 },
+					{ "x": 1.0, 	"y": 1.0, 	"z": 1.0 },
+					{ "x": 1.0, 	"y": 1.0, 	"z": -1.0 },
+					{ "x": -1.0, 	"y": 1.0, 	"z": -1.0 },
+					{ "x": -1.0, 	"y": 1.0, 	"z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"spotlight": {
+
+				"coneAngle": 60,
+
+				"coneFade": 0.5,
+
+				"minRange": 0.0,
+
+				"maxRange": 19.0,
+
+				"defaultLuminance": 50,
+
+				"color": "ffff66",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			}
+		},
+		{
+			"uuid": "a5a1c430-7d1c-4330-8a58-f267e20883b7",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_dif.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_asg.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MarioPipe10.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "148040",
+			"seat": {
+				"bones": [
+//					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.55, "z": 0.15 } },
+//					{ "name": "LeftForeArm", "offset": { "x": 1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true },
+//					{ "name": "RightForeArm", "offset": { "x": -1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true }
+					{ "name": "Hips", "offset": { "x": 0.0, "y": -1.55, "z": 0.15 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.25, "y": -1.64, "z": 0.15 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.25, "y": -1.64, "z": 0.15 }, "freeRotation": true }
+				],
+				"ragdollFile": "$MOD_DATA/Character/standingseat3_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": { 
+				"x": 4, "y": 20, "z": 4,
+				"margin": 0.1,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.71, "y": -1.0, "z": 0.71 },
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.71, "y": -1.0, "z": -0.71 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": -0.71, "y": -1.0, "z": -0.71 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": -0.71, "y": -1.0, "z": 0.71 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 0.71, "y": 0.0, "z": 0.71 },
+					{ "x": 1.0, "y": 0.0, "z": 0.0 },
+					{ "x": 0.71, "y": 0.0, "z": -0.71 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 },
+					{ "x": -0.71, "y": 0.0, "z": -0.71 },
+					{ "x": -1.0, "y": 0.0, "z": 0.0 },
+					{ "x": -0.71, "y": 0.0, "z": 0.71 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "c4011f77-92f7-4496-b42a-2eebd8909bc9",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_dif.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_asg.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MarioPipe100.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "148040",
+			"seat": {
+				"bones": [
+//					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.55, "z": 0.15 } },
+//					{ "name": "LeftForeArm", "offset": { "x": 1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true },
+//					{ "name": "RightForeArm", "offset": { "x": -1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true }
+					{ "name": "Hips", "offset": { "x": 0.0, "y": -1.55, "z": 0.15 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.25, "y": -1.64, "z": 0.15 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.25, "y": -1.64, "z": 0.15 }, "freeRotation": true }
+				],
+				"ragdollFile": "$MOD_DATA/Character/standingseat3_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": { 
+				"x": 4, "y": 200, "z": 4,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.71, "y": -1.0, "z": 0.71 },
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.71, "y": -1.0, "z": -0.71 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": -0.71, "y": -1.0, "z": -0.71 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": -0.71, "y": -1.0, "z": 0.71 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 0.71, "y": 0.0, "z": 0.71 },
+					{ "x": 1.0, "y": 0.0, "z": 0.0 },
+					{ "x": 0.71, "y": 0.0, "z": -0.71 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 },
+					{ "x": -0.71, "y": 0.0, "z": -0.71 },
+					{ "x": -1.0, "y": 0.0, "z": 0.0 },
+					{ "x": -0.71, "y": 0.0, "z": 0.71 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "93f31fb9-362e-4adc-ac61-e90e018dc462",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_dif.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_asg.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_cone_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_MarioPipe1000.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropYZ",
+			"color": "148040",
+			"seat": {
+				"bones": [
+//					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.55, "z": 0.15 } },
+//					{ "name": "LeftForeArm", "offset": { "x": 1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true },
+//					{ "name": "RightForeArm", "offset": { "x": -1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true }
+					{ "name": "Hips", "offset": { "x": 0.0, "y": -1.55, "z": 0.15 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.25, "y": -1.64, "z": 0.15 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.25, "y": -1.64, "z": 0.15 }, "freeRotation": true }
+				],
+				"ragdollFile": "$MOD_DATA/Character/standingseat3_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": { 
+				"x": 4, "y": 2000, "z": 4,
+				"margin": 0.01,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 1.0 },
+					{ "x": 0.71, "y": -1.0, "z": 0.71 },
+					{ "x": 1.0, "y": -1.0, "z": 0.0 },
+					{ "x": 0.71, "y": -1.0, "z": -0.71 },
+					{ "x": 0.0, "y": -1.0, "z": -1.0 },
+					{ "x": -0.71, "y": -1.0, "z": -0.71 },
+					{ "x": -1.0, "y": -1.0, "z": 0.0 },
+					{ "x": -0.71, "y": -1.0, "z": 0.71 },
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 0.71, "y": 0.0, "z": 0.71 },
+					{ "x": 1.0, "y": 0.0, "z": 0.0 },
+					{ "x": 0.71, "y": 0.0, "z": -0.71 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 },
+					{ "x": -0.71, "y": 0.0, "z": -0.71 },
+					{ "x": -1.0, "y": 0.0, "z": 0.0 },
+					{ "x": -0.71, "y": 0.0, "z": 0.71 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Steering"
+		},
+
+		{
+			"uuid": "54aa0789-3990-4f62-99f7-7a1947f1055d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/theatre_light_dif.png",
+                                    "$GAME_DATA/Textures/Default/default_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_woodplanks01_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+						"mesh": "$MOD_DATA/Objects/Mesh/barrel_v1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "9b683a",
+			"seat": {
+				"bones": [
+//					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.55, "z": 0.15 } },
+//					{ "name": "LeftForeArm", "offset": { "x": 1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true },
+//					{ "name": "RightForeArm", "offset": { "x": -1.5, "y": 1.4, "z": 0.15 }, "freeRotation": true }
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.25, "z": 0.45 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.35, "z": 0.15 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.35, "z": 0.15 }, "freeRotation": true }
+				],
+				"ragdollFile": "$MOD_DATA/Character/standingseat3_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"hull": { 
+				"x": 4, "y": 4, "z": 4,
+				//"margin": 2,
+				"pointList": [
+
+					{ "x": 0.80000000, "y": 1.00000000, "z": 0.00000000 },
+					{ "x": 0.73910363, "y": 1.00000000, "z": 0.30614675 },
+					{ "x": 0.56568542, "y": 1.00000000, "z": 0.56568542 },
+					{ "x": 0.30614675, "y": 1.00000000, "z": 0.73910363 },
+					{ "x": 0.00000000, "y": 1.00000000, "z": 0.80000000 },
+					{ "x": -0.30614675, "y": 1.00000000, "z": 0.73910363 },
+					{ "x": -0.56568542, "y": 1.00000000, "z": 0.56568542 },
+					{ "x": -0.73910363, "y": 1.00000000, "z": 0.30614675 },
+					{ "x": -0.80000000, "y": 1.00000000, "z": 0.00000000 },
+					{ "x": -0.73910363, "y": 1.00000000, "z": -0.30614675 },
+					{ "x": -0.56568542, "y": 1.00000000, "z": -0.56568542 },
+					{ "x": -0.30614675, "y": 1.00000000, "z": -0.73910363 },
+					{ "x": 0.00000000, "y": 1.00000000, "z": -0.80000000 },
+					{ "x": 0.30614675, "y": 1.00000000, "z": -0.73910363 },
+					{ "x": 0.56568542, "y": 1.00000000, "z": -0.56568542 },
+					{ "x": 0.73910363, "y": 1.00000000, "z": -0.30614675 },
+					{ "x": 0.80000000, "y": -1.00000000, "z": 0.00000000 },
+					{ "x": 0.73910363, "y": -1.00000000, "z": 0.30614675 },
+					{ "x": 0.56568542, "y": -1.00000000, "z": 0.56568542 },
+					{ "x": 0.30614675, "y": -1.00000000, "z": 0.73910363 },
+					{ "x": 0.00000000, "y": -1.00000000, "z": 0.80000000 },
+					{ "x": -0.30614675, "y": -1.00000000, "z": 0.73910363 },
+					{ "x": -0.56568542, "y": -1.00000000, "z": 0.56568542 },
+					{ "x": -0.73910363, "y": -1.00000000, "z": 0.30614675 },
+					{ "x": -0.80000000, "y": -1.00000000, "z": 0.00000000 },
+					{ "x": -0.73910363, "y": -1.00000000, "z": -0.30614675 },
+					{ "x": -0.56568542, "y": -1.00000000, "z": -0.56568542 },
+					{ "x": -0.30614675, "y": -1.00000000, "z": -0.73910363 },
+					{ "x": 0.00000000, "y": -1.00000000, "z": -0.80000000 },
+					{ "x": 0.30614675, "y": -1.00000000, "z": -0.73910363 },
+					{ "x": 0.56568542, "y": -1.00000000, "z": -0.56568542 },
+					{ "x": 0.73910363, "y": -1.00000000, "z": -0.30614675 },
+					{ "x": 0.95000000, "y": 0.50000000, "z": 0.00000000 },
+					{ "x": 1.00000000, "y": 0.00000000, "z": 0.00000000 },
+					{ "x": 0.95000000, "y": -0.50000000, "z": 0.00000000 },
+					{ "x": 0.87768556, "y": 0.50000000, "z": 0.36354926 },
+					{ "x": 0.92387953, "y": 0.00000000, "z": 0.38268343 },
+					{ "x": 0.87768556, "y": -0.50000000, "z": 0.36354926 },
+					{ "x": 0.67175144, "y": 0.50000000, "z": 0.67175144 },
+					{ "x": 0.70710678, "y": 0.00000000, "z": 0.70710678 },
+					{ "x": 0.67175144, "y": -0.50000000, "z": 0.67175144 },
+					{ "x": 0.36354926, "y": 0.50000000, "z": 0.87768556 },
+					{ "x": 0.38268343, "y": 0.00000000, "z": 0.92387953 },
+					{ "x": 0.36354926, "y": -0.50000000, "z": 0.87768556 },
+					{ "x": 0.00000000, "y": 0.50000000, "z": 0.95000000 },
+					{ "x": 0.00000000, "y": 0.00000000, "z": 1.00000000 },
+					{ "x": 0.00000000, "y": -0.50000000, "z": 0.95000000 },
+					{ "x": -0.36354926, "y": 0.50000000, "z": 0.87768556 },
+					{ "x": -0.38268343, "y": 0.00000000, "z": 0.92387953 },
+					{ "x": -0.36354926, "y": -0.50000000, "z": 0.87768556 },
+					{ "x": -0.67175144, "y": 0.50000000, "z": 0.67175144 },
+					{ "x": -0.70710678, "y": 0.00000000, "z": 0.70710678 },
+					{ "x": -0.67175144, "y": -0.50000000, "z": 0.67175144 },
+					{ "x": -0.87768556, "y": 0.50000000, "z": 0.36354926 },
+					{ "x": -0.92387953, "y": 0.00000000, "z": 0.38268343 },
+					{ "x": -0.87768556, "y": -0.50000000, "z": 0.36354926 },
+					{ "x": -0.95000000, "y": 0.50000000, "z": 0.00000000 },
+					{ "x": -1.00000000, "y": 0.00000000, "z": 0.00000000 },
+					{ "x": -0.95000000, "y": -0.50000000, "z": 0.00000000 },
+					{ "x": -0.87768556, "y": 0.50000000, "z": -0.36354926 },
+					{ "x": -0.92387953, "y": 0.00000000, "z": -0.38268343 },
+					{ "x": -0.87768556, "y": -0.50000000, "z": -0.36354926 },
+					{ "x": -0.67175144, "y": 0.50000000, "z": -0.67175144 },
+					{ "x": -0.70710678, "y": 0.00000000, "z": -0.70710678 },
+					{ "x": -0.67175144, "y": -0.50000000, "z": -0.67175144 },
+					{ "x": -0.36354926, "y": 0.50000000, "z": -0.87768556 },
+					{ "x": -0.38268343, "y": 0.00000000, "z": -0.92387953 },
+					{ "x": -0.36354926, "y": -0.50000000, "z": -0.87768556 },
+					{ "x": 0.00000000, "y": 0.50000000, "z": -0.95000000 },
+					{ "x": 0.00000000, "y": 0.00000000, "z": -1.00000000 },
+					{ "x": 0.00000000, "y": -0.50000000, "z": -0.95000000 },
+					{ "x": 0.36354926, "y": 0.50000000, "z": -0.87768556 },
+					{ "x": 0.38268343, "y": 0.00000000, "z": -0.92387953 },
+					{ "x": 0.36354926, "y": -0.50000000, "z": -0.87768556 },
+					{ "x": 0.67175144, "y": 0.50000000, "z": -0.67175144 },
+					{ "x": 0.70710678, "y": 0.00000000, "z": -0.70710678 },
+					{ "x": 0.67175144, "y": -0.50000000, "z": -0.67175144 },
+					{ "x": 0.87768556, "y": 0.50000000, "z": -0.36354926 },
+					{ "x": 0.92387953, "y": 0.00000000, "z": -0.38268343 },
+					{ "x": 0.87768556, "y": -0.50000000, "z": -0.36354926 }
+
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Wood"
+		},
+/////////////////////////////////////////
+
+		{
+			"uuid": "b9a71705-3333-4bbc-b6a4-2e3c4f30e2a3",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/UniTex_dif.png",
+									"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "df7f00",
+			"box": { "x": 3, "y": 5, "z": 3 },
+			"seat": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+					{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+					{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"physicsMaterial": "Metal",
+			"sticky": "-Y"
+		},
+		{
+			"uuid": "4994dabb-2943-489a-91f3-d6275689b2e6",
+			"renderable": {
+				"lodList": [ 
+					 {
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/UniTex_dif.png",
+									"$MOD_DATA/Objects/Textures/UniTex_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/Flag_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/Flag_on.obj"
+					}
+				]
+			},
+
+			"color": "df7f00",
+			"hull": {
+				"x": 1, "y": 9, "z": 1, "margin": 0.25,
+				"pointList": [
+					{ "x": 0, "y": -1, "z": 0 },
+					{ "x": 0, "y": 1, "z": 0 }
+				]
+			},
+			"physicsMaterial": "Metal",
+			"sticky": "-Y",			
+			"rotationSet": "PropY"
+		},
+
+
+		{
+			"uuid": "588b04b6-02d9-438e-aae0-8a4985d33a5d",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/g2_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_WaterWorldwide.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "StaticZ",
+			"color": "0f355b",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"physicsMaterial": "Plastic",
+//			"prop": true,
+			"button": { },
+		},
+		{
+			"uuid": "766e7479-7162-4ed5-99f7-d63268ab8b4e",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/g2_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Water1x1.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "0f355b",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d14dc5c2-1029-4078-9d78-c4369e30d499",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$MOD_DATA/Objects/Textures/g2_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_Water10x10.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "0f355b",
+			"box": { "x": 10, "y": 10, "z": 1 },
+			"physicsMaterial": "Plastic"
+		},
+
+
+
+		{
+			"uuid": "4284b368-91ab-4a81-83ef-dae2a847bead",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+                                    "$MOD_DATA/Objects/Textures/default_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/boxing_dummy_v2b.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "dd3333",
+			"hull": {
+				"x": 2,
+				"y": 16,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+					{ "x": 0.0, "y": 0.15, "z": 0.0 }, 
+					{ "x": 0.0, "y": 0.63, "z": 0.0 }
+				]
+			},
+			"density": 4000,
+			"physicsMaterial": "Plastic"
+		},
+
+////////////////////////////////////////
+
+		{
+			"uuid": "ec46b5e5-29e3-4462-83bd-020333250538",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                	"$MOD_DATA/Objects/Textures/mod_decor_arrowsign_dif.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_arrowsign_asg.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_arrowsign_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/MineCraft_GrassBlock_v3.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"density": 250,
+			"color": "5E9D34",
+			"box": { "x": 2, "y": 2, "z": 2 },
+			"physicsMaterial": "Grass"
+		},
+		
+		{
+			"uuid": "52a82f61-5134-4b24-80ac-6645306d4503",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                	"$MOD_DATA/Objects/Textures/mod_decor_arrowsign_dif.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_arrowsign_asg.png",
+                                    "$MOD_DATA/Objects/Textures/mod_decor_arrowsign_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/Pokeball_v8.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "f00000",
+			"density": 100.0,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.5,
+				"pointList": [
+					{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "8b67acb7-5779-4302-8c3c-c230fea766f4",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                	"$MOD_DATA/Objects/Textures/default_dif.png",
+                                    "$MOD_DATA/Objects/Textures/default_asg.png",
+                                    "$MOD_DATA/Objects/Textures/default_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/LegoBrick_v1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "df0000",
+			"hull": { 
+				"x": 4, "y": 1, "z": 2,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": -1.0, "z": 0.0 },
+					{ "x": 1.0, "y": 0.0, "z": 0.0 },
+					{ "x": -1.0, "y": 0.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "132bfeac-fd8e-416c-8fe2-d907f013de16",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                	"$MOD_DATA/Objects/Textures/default_dif.png",
+                                    "$MOD_DATA/Objects/Textures/default_asg.png",
+                                    "$MOD_DATA/Objects/Textures/default_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/LegoBrickSquare_v1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "df0000",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 0.0, "y": 1.0, "z": 0.0 },
+					{ "x": 0.0, "y": 0.0, "z": -1.0 },
+					{ "x": 0.0, "y": -1.0, "z": 0.0 },
+					{ "x": 1.0, "y": 0.0, "z": 0.0 },
+					{ "x": -1.0, "y": 0.0, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "53b82474-ea8e-4835-b28b-10c06514bfcf",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/decor_fancyduck_dif.png",
+                                    "$MOD_DATA/Objects/Textures/decor_fancyduck_asg.png",
+                                    "$MOD_DATA/Objects/Textures/default_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/decor_FancyDuck_v2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"density": 250.0,
+			"color": "ffd504",
+			"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "d41e1bf5-f7e1-471f-95e1-04b350da7b6c",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_babyduck_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_babyduck_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/TopHatDuck_v1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"density": 250.0,
+			"color": "ffd504",
+			"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "858c147b-1aa9-474c-a572-8893f816d0ca",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                	"$MOD_DATA/Objects/Textures/sparelift_dif.png",
+                                    "$GAME_DATA/Textures/Lift/lift_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/SpareLift_v2.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropYf",
+			"color": "d8ba00",
+			"box": { "x": 4, "y": 2, "z":4 },
+			"density": 1250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "623b66a7-1123-484e-b67c-d544f9f90283", 
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/vehicle/obj_large_wheel01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/vehicle/obj_large_wheel01_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/vehicle/obj_large_wheel01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/Tire29x12.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "df7f00",
+			"density": 1.0,
+			"cylinder": { "diameter": 29, "depth": 12, "margin": 0.2, "axis": "Z" },
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z"
+		},
+
+		{
+			"uuid": "fdae691a-40ed-4c7c-b3bc-d22944a8cf66",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/security_monitor_1_dif.png",
+									"$MOD_DATA/Objects/Textures/security_monitor_1_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/security_monitor_1_dif.png",
+									"$MOD_DATA/Objects/Textures/security_monitor_1_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/SecurityMonitor_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/SecurityMonitor_on.obj"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "00ff00",
+			"box": { "x": 2, "y": 1, "z": 2 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"logic": { },
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "227e1828-6461-4116-a418-8ed3b693969e",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/security_monitor_2_dif.png",
+									"$MOD_DATA/Objects/Textures/security_monitor_2_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/security_monitor_2_dif.png",
+									"$MOD_DATA/Objects/Textures/security_monitor_2_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.png"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/SecurityMonitor_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/SecurityMonitor_on.obj"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "968772",
+			"box": { "x": 2, "y": 1, "z": 2 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"logic": { },
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "9ac1cad6-08f6-47a1-b369-93fa2bca48ad",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensionoffroad_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_suspensionoffroad_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_suspensionoffroad_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "007fdf",
+			"cylinder": { "diameter": 1, "depth": 3, "axis": "Z" },
+			"physicsMaterial": "Metal",
+			"spring": {
+				"length": 3,
+				"defaultStiffnessLevel" :  9,
+				"stiffnessLevels": [
+					{ "stiffness": 0 },
+					{ "stiffness": -7500 },
+					{ "stiffness": -20000 },
+					{ "stiffness": -37500 },
+					{ "stiffness": -60000 },
+					{ "stiffness": -87500 },
+					{ "stiffness": -120000 },
+					{ "stiffness": -157500 },
+					{ "stiffness": -200000 },
+					{ "stiffness": -247500 },
+					{ "stiffness": -300000 },
+					{ "stiffness": -357500 },
+					{ "stiffness": -420000 },
+					{ "stiffness": -487500 },
+					{ "stiffness": -560000 },
+					{ "stiffness": -637500 },
+					{ "stiffness": -720000 },
+					{ "stiffness": -807500 },
+					{ "stiffness": -900000 },
+					{ "stiffness": -997500 }
+				]
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "c271edce-f521-419c-ba33-79bdddb372a4",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensionoffroad_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_asg.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            }
+                        ],
+			"mesh": "$MOD_DATA/Objects/Mesh/mjm_SuspensionOffroad8_off.fbx",
+			"pose0": "$MOD_DATA/Objects/Mesh/mjm_SuspensionOffroad8_on.fbx"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "007fdf",
+			"cylinder": { "diameter": 1, "depth": 8, "axis": "Z" },
+			"physicsMaterial": "Metal",
+			"spring": {
+				"length": 8,
+				"defaultStiffnessLevel" :  9,
+				"stiffnessLevels": [
+					{ "stiffness": 0 },
+					{ "stiffness": -7500 },
+					{ "stiffness": -20000 },
+					{ "stiffness": -37500 },
+					{ "stiffness": -60000 },
+					{ "stiffness": -87500 },
+					{ "stiffness": -120000 },
+					{ "stiffness": -157500 },
+					{ "stiffness": -200000 },
+					{ "stiffness": -247500 },
+					{ "stiffness": -300000 },
+					{ "stiffness": -357500 },
+					{ "stiffness": -420000 },
+					{ "stiffness": -487500 },
+					{ "stiffness": -560000 },
+					{ "stiffness": -637500 },
+					{ "stiffness": -720000 },
+					{ "stiffness": -807500 },
+					{ "stiffness": -900000 },
+					{ "stiffness": -997500 }
+				]
+			},
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+	   	{
+			"uuid": "02d3c969-1a64-445e-ae57-b04d7ae66157",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_nor.tga"
+								],
+								"material": "3PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off01.fbx",
+						"pose1": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on.fbx",
+						"pose2": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on01.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "ffff00",
+			"box": { "x": 2, "y": 2, "z": 4 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"thruster":
+			{
+				"levels":
+				[
+					{ "averageForce": -2222.22, "forceVariation": 0 },
+					{ "averageForce": -3333.33, "forceVariation": 0 },
+					{ "averageForce": -5000, "forceVariation": 0 },
+					{ "averageForce": -7500, "forceVariation": 0 },
+					{ "averageForce": -11250, "forceVariation": 0 },
+					{ "averageForce": -16875, "forceVariation": 0 },
+					{ "averageForce": -25312.5, "forceVariation": 0 }
+				]
+			}
+		},  	
+		{
+			"uuid": "d9a3763d-a876-4c52-8bed-8051a843ecf1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_nor.tga"
+								],
+								"material": "3PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off01.fbx",
+						"pose1": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on.fbx",
+						"pose2": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on01.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "0088ff",
+			"box": { "x": 2, "y": 2, "z": 4 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"thruster":
+			{
+				"levels":
+				[
+					{ "averageForce": 2222.22, "forceVariation": 0 },
+					{ "averageForce": 3333.33, "forceVariation": 0 },
+					{ "averageForce": 5000, "forceVariation": 0 },
+					{ "averageForce": 7500, "forceVariation": 0 },
+					{ "averageForce": 11250, "forceVariation": 0 },
+					{ "averageForce": 16875, "forceVariation": 0 },
+					{ "averageForce": 25312.5, "forceVariation": 0 }
+				]
+			}
+		},
+		{
+			"uuid": "1039c626-5f88-4a70-9bb4-363bee0bf5ba",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_nor.tga"
+								],
+								"material": "3PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off01.fbx",
+						"pose1": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on.fbx",
+						"pose2": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on01.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "88ff00",
+			"box": { "x": 2, "y": 2, "z": 4 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"thruster":
+			{
+				"levels":
+				[
+					{ "averageForce": 2222.22, "forceVariation": 222.22 },
+					{ "averageForce": 3333.33, "forceVariation": 333.33 },
+					{ "averageForce": 5000, "forceVariation": 500 },
+					{ "averageForce": 7500, "forceVariation": 750 },
+					{ "averageForce": 11250, "forceVariation": 1125 },
+					{ "averageForce": 16875, "forceVariation": 1687.5 },
+					{ "averageForce": 25312.5, "forceVariation": 2531.25 }
+				]
+			}
+		},
+		{
+			"uuid": "dbb5f543-10a8-4c89-a21b-0fadd71a8e47",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_nor.tga"
+								],
+								"material": "3PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off01.fbx",
+						"pose1": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on.fbx",
+						"pose2": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on01.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "00ff88",
+			"box": { "x": 2, "y": 2, "z": 4 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"thruster":
+			{
+				"levels":
+				[
+					{ "averageForce": 2222.22, "forceVariation": 2222.22 },
+					{ "averageForce": 3333.33, "forceVariation": 3333.33 },
+					{ "averageForce": 5000, "forceVariation": 5000 },
+					{ "averageForce": 7500, "forceVariation": 7500 },
+					{ "averageForce": 11250, "forceVariation": 11250 },
+					{ "averageForce": 16875, "forceVariation": 16875 },
+					{ "averageForce": 25312.5, "forceVariation": 25312.5 }
+				]
+			}
+		},
+		{
+			"uuid": "72631acc-bab6-4eb0-9289-291f59166144",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_nor.tga"
+								],
+								"material": "3PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off01.fbx",
+						"pose1": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on.fbx",
+						"pose2": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on01.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "00ffff",
+			"box": { "x": 2, "y": 2, "z": 4 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"thruster":
+			{
+				"levels":
+				[
+					{ "averageForce": 0, "forceVariation": 10000 },
+					{ "averageForce": 0, "forceVariation": 20000 },
+					{ "averageForce": 0, "forceVariation": 40000 },
+					{ "averageForce": 0, "forceVariation": 60000 },
+					{ "averageForce": 0, "forceVariation": 80000 },
+					{ "averageForce": 0, "forceVariation": 100000 },
+					{ "averageForce": 0, "forceVariation": 150000 }
+				]
+			}
+		},
+		{
+			"uuid": "39e0c1b0-93b9-4bca-a4d0-cc7d6c12f8c2", 
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+									"$MOD_DATA/Objects/Textures/default_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/SteeringWheel_1.obj"
+                    }
+                ]
+            },
+			"rotationSet": "SteerWheel",
+			"color": "505050",
+			"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Z" },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"sticky": "+Z",
+			"button": {}
+		},
+		{
+			"uuid": "26aafccf-c745-4dff-ae63-61a011bdfa4c",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/obj_wheels_cookiewheel_dif.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_cookiewheel_asg.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_cookiewheel_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/obj_wheels_cookiewheel.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "2b1a05",
+			"cylinder": { "diameter": 5, "depth": 1, "margin": 0.5, "axis": "Z" },
+			"density": 250.0,
+			"physicsMaterial": "Grass",
+			"sticky": "-Z+Z"
+		},
+		{
+			"uuid": "907bad1a-5391-47e2-be73-1bf0229e68be",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/obj_wheels_chocolatecookiewheel_dif.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_cookiewheel_asg.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_cookiewheel_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/obj_wheels_cookiewheel.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "f1c48c",
+			"cylinder": { "diameter": 5, "depth": 1, "margin": 0.5, "axis": "Z" },
+			"density": 250.0,
+			"physicsMaterial": "Grass",
+			"sticky": "-Z+Z"
+		},
+		{
+			"uuid": "3e7ae369-0ae4-4243-ac34-8576d6909e15",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/obj_wheels_creamcookie_dif.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_creamcookie_asg.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_creamcookie_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/obj_wheels_creamcookie.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "efe6e0",
+			"hull": { 
+				"x": 5, "y": 5, "z": 1,
+				"margin": 0.5,
+				"pointList": [
+					{ "x": 0.0, "y": 0.6, "z": 0.0 },
+					{ "x": 0.23, "y": 0.55, "z": 0.0 },
+					{ "x": 0.42, "y": 0.42, "z": 0.0 },
+					{ "x": 0.55, "y": 0.23, "z": 0.0 },
+					{ "x": 0.6, "y": 0.0, "z": 0.0 },
+					{ "x": 0.55, "y": -0.23, "z": 0.0 },
+					{ "x": 0.42, "y": -0.42, "z": 0.0 },
+					{ "x": 0.23, "y": -0.55, "z": 0.0 },
+					{ "x": 0.0, "y": -0.6, "z": 0.0 },
+					{ "x": -0.23, "y": -0.55, "z": 0.0 },
+					{ "x": -0.42, "y": -0.42, "z": 0.0 },
+					{ "x": -0.55, "y": -0.23, "z": 0.0 },
+					{ "x": -0.6, "y": 0.0, "z": 0.0 },
+					{ "x": -0.55, "y": 0.23, "z": 0.0 },
+					{ "x": -0.42, "y": 0.42, "z": 0.0 },
+					{ "x": -0.23, "y": 0.55, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Grass",
+			"sticky": "-Z+Z"
+		},
+		{
+			"uuid": "bfeb5dc0-29d2-461e-b0b6-6c68ca05c0cb",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/obj_wheels_creamcookie2_dif.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_creamcookie_asg.png",
+									"$MOD_DATA/Objects/Textures/obj_wheels_creamcookie_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/obj_wheels_creamcookie.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "f1c48c",
+			"hull": { 
+				"x": 5, "y": 5, "z": 1,
+				"margin": 0.5,
+				"pointList": [
+					{ "x": 0.0, "y": 0.6, "z": 0.0 },
+					{ "x": 0.23, "y": 0.55, "z": 0.0 },
+					{ "x": 0.42, "y": 0.42, "z": 0.0 },
+					{ "x": 0.55, "y": 0.23, "z": 0.0 },
+					{ "x": 0.6, "y": 0.0, "z": 0.0 },
+					{ "x": 0.55, "y": -0.23, "z": 0.0 },
+					{ "x": 0.42, "y": -0.42, "z": 0.0 },
+					{ "x": 0.23, "y": -0.55, "z": 0.0 },
+					{ "x": 0.0, "y": -0.6, "z": 0.0 },
+					{ "x": -0.23, "y": -0.55, "z": 0.0 },
+					{ "x": -0.42, "y": -0.42, "z": 0.0 },
+					{ "x": -0.55, "y": -0.23, "z": 0.0 },
+					{ "x": -0.6, "y": 0.0, "z": 0.0 },
+					{ "x": -0.55, "y": 0.23, "z": 0.0 },
+					{ "x": -0.42, "y": 0.42, "z": 0.0 },
+					{ "x": -0.23, "y": 0.55, "z": 0.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Grass",
+			"sticky": "-Z+Z"
+		},
+		{
+		"uuid": "9f4856f6-349c-449e-b1e3-b5adca334fea",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                	"$MOD_DATA/Objects/Textures/default_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/egg.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "f8ffef",
+			"hull": { 
+				"x": 3, "y": 5, "z": 3,
+				"margin": 0.0,
+				"pointList": [
+					{ "x":  0.0, "z":  0.0, "y": 1 },
+
+					{ "x":  0.5555, "z":  0.0, "y": 0.8 },
+					{ "x":  0.3927, "z": -0.3927, "y": 0.8 },
+					{ "x":  0.0, "z": -0.5555, "y": 0.8 },
+					{ "x": -0.3927, "z": -0.3927, "y": 0.8 },
+					{ "x": -0.5555, "z":  0.0, "y": 0.8 },
+					{ "x": -0.3927, "z":  0.3927, "y": 0.8 },
+					{ "x":  0.0, "z":  0.5555, "y": 0.8 },
+					{ "x":  0.3927, "z":  0.3927, "y": 0.8 },
+
+					{ "x":  0.9238, "z":  0.0, "y": 0.4 },
+					{ "x":  0.6531, "z": -0.6531, "y": 0.4 },
+					{ "x":  0.0, "z": -0.9238, "y": 0.4 },
+					{ "x": -0.6531, "z": -0.6531, "y": 0.4 },
+					{ "x": -0.9238, "z":  0.0, "y": 0.4 },
+					{ "x": -0.6531, "z":  0.6531, "y": 0.4 },
+					{ "x":  0.0, "z":  0.9238, "y": 0.4 },
+					{ "x":  0.6531, "z":  0.6531, "y": 0.4 },
+
+					{ "x":  1.0, "z":  0.0, "y": 0.0 },
+					{ "x":  0.707, "z":  0.707, "y": 0.0 },
+					{ "x":  0.0, "z":  1.0, "y": 0.0 },
+					{ "x": -0.707, "z":  0.707, "y": 0.0 },
+					{ "x": -1.0, "z":  0.0, "y": 0.0 },
+					{ "x": -0.707, "z": -0.707, "y": 0.0 },
+					{ "x":  0.0, "z": -1.0, "y": 0.0 },
+					{ "x":  0.707, "z": -0.707, "y": 0.0 },
+
+					{ "x":  0.707, "z":  0.0, "y": -0.4 },
+					{ "x":  0.25, "z":  0.25, "y": -0.4 },
+					{ "x":  0.0, "z":  0.707, "y": -0.4 },
+					{ "x": -0.25, "z":  0.25, "y": -0.4 },
+					{ "x": -0.707, "z":  0.0, "y": -0.4 },
+					{ "x": -0.25, "z": -0.25, "y": -0.4 },
+					{ "x":  0.0, "z": -0.707, "y": -0.4 },
+					{ "x":  0.25, "z": -0.25, "y": -0.4 },
+
+					{ "x":  0.0, "z":  0.0, "y": -0.6 }
+				]
+			},
+			"density": 50,
+			"physicsMaterial": "Plastic"
+		},
+		
+		{
+			"uuid": "bb44fb6d-30ed-48c6-a537-d4c5493fd587",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                                                        {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_head01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_head01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_head01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_feet01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_feet01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_feet01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_chest01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_chest01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_chest01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hands01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hands01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hands01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hair01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hair01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hair01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_legs01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_legs01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_legs01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/char_male_statue.mesh"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "df7f00",
+			"hull": {
+				"x": 6, "y": 1, "z": 6,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 0.9 },
+					{ "x": -1.0, "y": -1.0, "z": 0.23 },
+					{ "x": -0.33, "y": -1.0, "z": -1.0 },
+					{ "x": 0.33, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 0.23 },
+					{ "x": 0.0, "y": 1.0, "z": 0.9 },
+					{ "x": -1.0, "y": 1.0, "z": 0.23 },
+					{ "x": -0.33, "y": 1.0, "z": -1.0 },
+					{ "x": 0.33, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "fbd9ca1e-97b1-4420-839c-413bfd18071b",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hands01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hands01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_hands01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_legs01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_legs01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_legs01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_feet01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_feet01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_male/char_male_feet01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_hair01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_hair01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_hair01_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_chest01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_chest01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_chest01_nor.tga"
+                                ],
+                                "material": "DifAsg"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_head01_dif.tga",
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_head01_asg.tga",
+                                    "$GAME_DATA/Character/Textures/char_female/char_female_head01_nor.tga"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/char_female_statue.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "df7f00",
+			"hull": {
+				"x": 6, "y": 1, "z": 6,
+				"pointList": [
+					{ "x": 0.0, "y": -1.0, "z": 0.9 },
+					{ "x": -1.0, "y": -1.0, "z": 0.23 },
+					{ "x": -0.33, "y": -1.0, "z": -1.0 },
+					{ "x": 0.33, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 0.23 },
+					{ "x": 0.0, "y": 1.0, "z": 0.9 },
+					{ "x": -1.0, "y": 1.0, "z": 0.23 },
+					{ "x": -0.33, "y": 1.0, "z": -1.0 },
+					{ "x": 0.33, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": 0.23 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "1cb3e2b1-566c-4888-86b4-5659e9386c12",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_mannequinhand_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_mannequinhand_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_mannequinhand_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/obj_decor_mannequinhand.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "e48c71",
+			"density": 250.0,
+			"sticky": "-Y",
+			"hull": {
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": -0.37, "y": -1.00, "z": 0.47 },
+					{ "x": 0.31, "y": -1.00, "z": 0.51 },
+					{ "x": -0.38, "y": 0.31, "z": 0.56 },
+					{ "x": 0.18, "y": 0.36, "z": 0.62 },
+					{ "x": 0.27, "y": 1.00, "z": -0.65 },
+					{ "x": -0.42, "y": -1.00, "z": -0.54 },
+					{ "x": 0.31, "y": -1.00, "z": -0.65 },
+					{ "x": -0.54, "y": 0.44, "z": -0.30 },
+					{ "x": -0.75, "y": -0.12, "z": -0.88 },
+					{ "x": -0.40, "y": -0.32, "z": 0.66 },
+					{ "x": 0.55, "y": -0.32, "z": 0.69 },
+					{ "x": 0.35, "y": -0.17, "z": -0.82 }
+				]
+			},
+			"physicsMaterial": "Plastic"
+		},
+		
+		{
+			"uuid": "69ec6a78-5aab-4464-88e5-fe708431e9ad",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_mannequinhand_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_mannequinhand_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/decor/obj_decor_mannequinhand_nor.tga"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mannequinhand.fbx"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"color": "e48c71",
+			"seat": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 1.2, "z": 0.0 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 1.2, "z": 1.0 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 1.2, "z": 1.0 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"density": 250.0,
+			"sticky": "-Y",
+			"hull": {
+				"x": 1, "y": 2, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": -0.37, "y": -1.00, "z": 0.47 },
+					{ "x": 0.31, "y": -1.00, "z": 0.51 },
+					{ "x": -0.38, "y": 0.31, "z": 0.56 },
+					{ "x": 0.18, "y": 0.36, "z": 0.62 },
+					{ "x": 0.27, "y": 1.00, "z": -0.65 },
+					{ "x": -0.42, "y": -1.00, "z": -0.54 },
+					{ "x": 0.31, "y": -1.00, "z": -0.65 },
+					{ "x": -0.54, "y": 0.44, "z": -0.30 },
+					{ "x": -0.75, "y": -0.12, "z": -0.88 },
+					{ "x": -0.40, "y": -0.32, "z": 0.66 },
+					{ "x": 0.55, "y": -0.32, "z": 0.69 },
+					{ "x": 0.35, "y": -0.17, "z": -0.82 }
+				]
+			},
+			"physicsMaterial": "Steering"
+		},
+		{
+			"uuid": "b812385f-e906-45e0-aaa8-03daf0abd16b",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_piston_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_piston_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_piston_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/piston_0.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/piston_64.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "00df00",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"physicsMaterial": "Metal",
+			"piston": {
+				"length": 16,
+				"speedLevels": [
+					{ "speed": 30.0 },
+					{ "speed": 40.0 },
+					{ "speed": 50.0 },
+					{ "speed": 60.0 },
+					{ "speed": 70.0 },
+					{ "speed": 80.0 },
+					{ "speed": 90.0 },
+					{ "speed": 100.0 },
+					{ "speed": 250.0 },
+					{ "speed": 500.0 }
+				],
+				"defaultSpeedLevel": 2,
+				"defaultRange": 3,
+				"force": 1000000.0
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "976ab4e6-236c-4ece-bcd6-8275a7bbddd1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_piston_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_piston_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_piston_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/piston_0.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/piston_64.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "df0000",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"physicsMaterial": "Metal",
+			"piston": {
+				"length": 16,
+				"speedLevels": [
+					{ "speed": 5.0 },
+					{ "speed": 10.0 },
+					{ "speed": 15.0 },
+					{ "speed": 20.0 },
+					{ "speed": 25.0 },
+					{ "speed": 30.0 },
+					{ "speed": 40.0 },
+					{ "speed": 60.0 },
+					{ "speed": 80.0 },
+					{ "speed": 100.0 }
+				],
+				"defaultSpeedLevel": 2,
+				"defaultRange": 3,
+				"force": 10000000.0
+			},
+			"sticky": "-Z",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		{
+			"uuid": "d676bfd3-a204-4a41-80cb-62b243cb3efe",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+                                    "$MOD_DATA/Objects/Textures/env_foliage_plantexotic01_dif.png",
+                                    "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_plantexotic01_asg.tga",
+                                    ""
+                                ],
+                                "material" : "DifAsgAlpha"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/exotic_plant_01.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "c72a46",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Grass"
+		},
+		{
+			"uuid": "deca8e2e-96d2-497b-909c-81194afd603c",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+                                    "$MOD_DATA/Objects/Textures/env_foliage_plantexotic01_dif.png",
+                                    "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_plantexotic01_asg.tga",
+                                    ""
+                                ],
+                                "material" : "DifAsgAlpha"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/exotic_plant_02.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "c72a46",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Grass"
+		},
+		{
+			"uuid": "729c0363-200e-449e-8b63-2210d4dcb59d",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+                                    "$MOD_DATA/Objects/Textures/env_foliage_plantexotic01_dif.png",
+                                    "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_plantexotic01_asg.tga",
+                                    ""
+                                ],
+                                "material" : "DifAsgAlpha"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/exotic_plant_03.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "c72a46",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Grass"
+		},
+		{
+			"uuid": "25ad229d-0170-4ad6-a54e-0c5e24da8cba",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "",
+                                    ""
+                                ],
+                                "material": "PoseAnimLightCone"
+                            }
+                        ], 
+						"mesh": "$MOD_DATA/Objects/Mesh/lightbeam_v5_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/lightbeam_v5_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZ",
+			"color": "ffffae",
+			"cylinder": { "diameter": 5, "depth": 1, "margin": 0.1, "axis": "Z" },
+			"density": 250.0,
+			"spotlight": {
+
+				"coneAngle": 42.8,
+
+				"coneFade": 0.7858,
+
+				"minRange": 15.0,
+
+				"maxRange": 35.0,
+
+				"defaultLuminance": 50,
+
+				"color": "ffffae",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			},
+			"physicsMaterial": "Plastic",
+			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		
+		{
+			"uuid": "01bfdf36-5858-4fc0-ba85-218677684cd8",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_concrete01_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "8d8f89",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "65f218de-0209-4656-b25f-08e6e0d73772",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_woodplanks01_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "9b683a",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "0ea74a7c-7fb5-49ef-ba11-27c196f87c99",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_metal01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_metal01_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_metal01_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "675f51",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "029c515a-5611-4544-885b-51835c15c2e0",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_caution01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_caution01_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_caution01_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "ce9e0c",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "072b38ab-0c3e-4022-a7bc-74f4702f5f25",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_bricks01_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_bricks01_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_bricks01_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "af967b",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "02af1b12-eb88-4dad-988c-f772abceebda",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_glass_nor.png"
+                                ],
+                                "material": "Glass"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "e4f8ff",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "040afdf9-c30f-4bbb-b675-2d28822948be",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_glasstiles_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/Blocks/blk_glasstiles_asg.tga",
+                                    "$MOD_DATA/Objects/Textures/blk_glasstiles_nor.png"
+                                ],
+                                "material": "Glass"
+                            }                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/ghost_wall_16b.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"color": "c2f9ff",
+			"box": { "x":1, "y":1, "z":1 },
+			"density": 250,
+			"physicsMaterial": "Wood"
+		},
+		{
+			"uuid": "2be714ef-df15-4bf5-a22d-482adf48e5d1",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/jack-o-lantern_dif.png",
+                                    "$MOD_DATA/Objects/Textures/jack-o-lantern_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/jack-o-lantern_dif.png",
+                                    "$MOD_DATA/Objects/Textures/jack-o-lantern_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            }
+                        ],
+							"mesh": "$MOD_DATA/Objects/Mesh/jack-o-lantern_off.obj",
+							"pose0": "$MOD_DATA/Objects/Mesh/jack-o-lantern_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"color": "df7f00",
+			//"box": { "x":2, "y":2, "z":2 },
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				//"margin": 0.3,
+				"pointList": [
+					{ "x": 0.00000000, "y": -0.47593714, "z": 0.86189598 },
+					{ "x": 0.00000000, "y": -0.01006286, "z": 0.86189598 },
+					{ "x": 0.04633014, "y": 0.84599748, "z": 0.01068845 },
+					{ "x": 0.63095165, "y": 0.31828238, "z": 0.00000000 },
+					{ "x": 0.44615019, "y": 0.31828238, "z": 0.44615019 },
+					{ "x": 0.00000000, "y": 0.31828238, "z": 0.63095165 },
+					{ "x": -0.44615019, "y": 0.31828238, "z": 0.44615019 },
+					{ "x": -0.63095165, "y": 0.31828238, "z": 0.00000000 },
+					{ "x": -0.44615019, "y": 0.31828238, "z": -0.44615019 },
+					{ "x": 0.00000000, "y": 0.31828238, "z": -0.63095165 },
+					{ "x": 0.44615019, "y": 0.31828238, "z": -0.44615019 },
+					{ "x": 0.86189598, "y": -0.01006286, "z": 0.00000000 },
+					{ "x": 0.60945249, "y": -0.01006286, "z": 0.60945249 },
+					{ "x": -0.60945249, "y": -0.01006286, "z": 0.60945249 },
+					{ "x": -0.86189598, "y": -0.01006286, "z": 0.00000000 },
+					{ "x": -0.60945249, "y": -0.01006286, "z": -0.60945249 },
+					{ "x": 0.00000000, "y": -0.01006286, "z": -0.86189598 },
+					{ "x": 0.60945249, "y": -0.01006286, "z": -0.60945249 },
+					{ "x": 0.86189598, "y": -0.47593714, "z": 0.00000000 },
+					{ "x": 0.60945249, "y": -0.47593714, "z": 0.60945249 },
+					{ "x": -0.60945249, "y": -0.47593714, "z": 0.60945249 },
+					{ "x": -0.86189598, "y": -0.47593714, "z": 0.00000000 },
+					{ "x": -0.60945249, "y": -0.47593714, "z": -0.60945249 },
+					{ "x": 0.00000000, "y": -0.47593714, "z": -0.86189598 },
+					{ "x": 0.60945249, "y": -0.47593714, "z": -0.60945249 },
+					{ "x": 0.63095165, "y": -0.80428238, "z": 0.00000000 },
+					{ "x": 0.44615019, "y": -0.80428238, "z": 0.44615019 },
+					{ "x": 0.00000000, "y": -0.80428238, "z": 0.63095165 },
+					{ "x": -0.44615019, "y": -0.80428238, "z": 0.44615019 },
+					{ "x": -0.63095165, "y": -0.80428238, "z": 0.00000000 },
+					{ "x": -0.44615019, "y": -0.80428238, "z": -0.44615019 },
+					{ "x": 0.00000000, "y": -0.80428238, "z": -0.63095165 },
+					{ "x": 0.44615019, "y": -0.80428238, "z": -0.44615019 },
+					{ "x": 0.23094433, "y": -0.89533838, "z": 0.00000000 },
+					{ "x": 0.16330230, "y": -0.89533838, "z": 0.16330230 },
+					{ "x": 0.00000000, "y": -0.89533838, "z": 0.23094433 },
+					{ "x": -0.16330230, "y": -0.89533838, "z": 0.16330230 },
+					{ "x": -0.23094433, "y": -0.89533838, "z": 0.00000000 },
+					{ "x": -0.16330230, "y": -0.89533838, "z": -0.16330230 },
+					{ "x": 0.000000000, "y": -0.89533838, "z": -0.23094433 },
+					{ "x": 0.16330230, "y": -0.89533838, "z": -0.16330230 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Plastic",
+			"spotlight": {
+
+				"coneAngle": 75,
+
+				"coneFade": 0.1,
+
+				"minRange": 0.0,
+
+				"maxRange": 19.0,
+
+				"defaultLuminance": 50,
+
+				"color": "df7f00",
+
+				"direction": { "x": 0, "y": 0, "z": 1 }
+
+			}
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b1",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_1_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b2",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_2_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b3",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_3_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b4",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_4_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b5",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_5_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b6",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_6_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		},
+		{
+			"uuid": "ff44dc9a-16ba-4847-846c-091ffbf930b7",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/dragonball_dif.png",
+                                    "$MOD_DATA/Objects/Textures/dragonball_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+								"mesh": "$MOD_DATA/Objects/Mesh/dragonball_namek_7_07.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropFull",
+			"simpleInteractive": {},
+			"color": "df7f00",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"margin": 1.0,
+				"pointList": [
+				{ "x": 0, "y": 0, "z": 0 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Glass"
+		}
+		
+  	
+   ]
+}

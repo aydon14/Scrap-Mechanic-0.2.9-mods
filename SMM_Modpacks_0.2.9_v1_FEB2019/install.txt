@@ -1,0 +1,69 @@
+TLDR: Copy mod folders into your Scrap Mechanic Mods folder and enable them in-game.
+
+
+PORTED FOR SCRAP MECHANIC 0.2.9
+===============================
+
+This pack was originally built for 0.3.5 and has been adapted for 0.2.9.
+
+What works on 0.2.9:
+- Static blocks, wedges, panels, and decorative parts (The Modpack Polygons is the most complete)
+- Native interactables: thrusters, pistons, buttons, logic gates, seats, spotlights, etc.
+- Custom headlights/spotlights (converted to 0.2.9 inline light settings)
+- Sports balls and bowling props (native Havok physics — roll, bounce, and collide; no custom Lua bounce)
+
+What does NOT work on 0.2.9 (removed or static-only):
+- Legacy Support mod (removed — not needed for 0.2.9)
+- All custom Lua logic parts (math block, radar, wireless, block spawner, wings, etc.)
+- BETA weapons/toys (cannons, flamethrower, skull launcher, etc.)
+
+
+How to install:
+
+Extract the modpack folders to the location of the Scrap Mechanic mod tool folder:
+
+c:\Users\[username]\AppData\Roaming\Axolot Games\Scrap Mechanic\User\User_[numbers]\Mods\
+
+
+If you do not find a "Mods" folder, you can create one.
+It should be right next to the "Blueprints" and "Save" folders.
+
+Like this:
+c:\Users\[username]\AppData\Roaming\Axolot Games\Scrap Mechanic\User\User_[numbers]\Mods\The Modpack
+
+
+Enable/disable individual mods in the in-game Mod Manager (toggle each modpack on or off).
+
+
+That's it!
+
+
+Subscribe for Scrap Mechanic Mods, Tutorials, Reviews, and more!
+
+http://youtube.com/ScrapMechanicMods
+
+
+
+
+Visit our website!
+
+https://www.scrapmechanicmods.com/
+
+
+
+
+If you want to support mods for Scrap Mechanic:
+http://patreon.com/Durf
+http://paypal.me/Durf
+
+
+
+Credits:
+
+Durf:              http://youtube.com/Durf
+MJM Builds:        http://youtube.com/MJMBuilds
+Brent Batch:       http://youtube.com/brentbatch
+TechnologicNick:   https://www.youtube.com/channel/UCPVpQZzavDBDRTHW5WZUp7Q
+Lord Pain:         http://youtube.com/lordpain
+Shinevision:       http://youtube.com/ShinevisionSV
+Grego:             http://youtube.com/grego0

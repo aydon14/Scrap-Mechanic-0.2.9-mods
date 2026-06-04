@@ -1,0 +1,405 @@
+{
+	"c2ce86e5-39f7-4bfa-ae54-6600fd08b075":
+	{
+		"title": "Bloc d'Isolation",
+		"description": "Une texture qui était cachée dans les fichiers du jeu depuis le début !"
+	},
+	"6cadc322-8681-4c13-a555-b02d17aeec9f":
+	{
+		"title": "Bloc de Vaisseau Spacial",
+		"description": "Une texture qui était cachée dans les fichiers du jeu depuis le début !"
+	},
+	"25ad229d-0170-4ad6-a54e-0c5e24da8cba":
+	{
+		"title": "Faisceau lumineux",
+		"description": ""
+	},
+	"6ce38cd5-1157-4592-b549-fe9e4f9e0af9":
+	{
+		"title": "Bloc Lettre ABCDEF",
+		"description": ""
+	},
+	"aeb03812-4fbb-44c5-951d-df97a497504e":
+	{
+		"title": "Bloc Lettre GHIJKL",
+		"description": ""
+	},
+	"6a47855b-830f-40e3-b3f5-b6e8a76d3371":
+	{
+		"title": "Bloc Lettre MNOPQR",
+		"description": ""
+	},
+	"fc6aa4de-dc38-4aad-aadd-dba456f7a72e":
+	{
+		"title": "Bloc Lettre STUVWX",
+		"description": ""
+	},
+	"7dba2c7d-ee07-4e0d-9181-24bad008950e":
+	{
+		"title": "Bloc Lettre YZ0123",
+		"description": ""
+	},
+	"6bcc88f3-f0cc-407b-ba42-1d5cd1783ec3":
+	{
+		"title": "Bloc Lettre 456789",
+		"description": ""
+	},
+	"a5a1c430-7d1c-4330-8a58-f267e20883b7":
+	{
+		"title": "Tuyau de Mario 10",
+		"description": ""
+	},
+	"c4011f77-92f7-4496-b42a-2eebd8909bc9":
+	{
+		"title": "Tuyau de Mario 100",
+		"description": ""
+	},
+	"93f31fb9-362e-4adc-ac61-e90e018dc462":
+	{
+		"title": "Tuyau de Mario 1000",
+		"description": ""
+	},
+	"588b04b6-02d9-438e-aae0-8a4985d33a5d":
+	{
+		"title": "Bloc d'Eau - Monde - Sans Collision",
+		"description": ""
+	},
+	"766e7479-7162-4ed5-99f7-d63268ab8b4e":
+	{
+		"title": "Bloc d'Eau 1x1 - 3.5 Profond",
+		"description": ""
+	},
+	"d14dc5c2-1029-4078-9d78-c4369e30d499":
+	{
+		"title": "Bloc d'Eau 10x10 - 3.5 Profond",
+		"description": ""
+	},
+	"f8ff9f84-9594-4794-b4de-f445faadcac9":
+	{
+		"title": "Balle de Foot",
+		"description": ""
+	},
+	"699280a8-5fcb-4a97-b4da-e723a6cb2e2d":
+	{
+		"title": "Football / Rugby",
+		"description": ""
+	},
+	"262f9d5b-42da-4cc6-bc10-57d52e67f5fd":
+	{
+		"title": "Basketball",
+		"description": ""
+	},
+	"b17184d8-8dfa-4b86-8d04-38dcc7564caa":
+	{
+		"title": "Baseball",
+		"description": ""
+	},
+	"375da746-8364-4bea-a1fa-d6ee6f08cf10":
+	{
+		"title": "Balle de Golf Lourde - Putting",
+		"description": ""
+	},
+	"54d32938-83f8-4d1d-ad0c-b636bf5001eb":
+	{
+		"title": "Balle de Golf Medium - Pitching",
+		"description": ""
+	},
+	"7873465e-ff81-4da9-b2d5-4c4ead24fc1c":
+	{
+		"title": "Balle de Golf Légère - Driving",
+		"description": ""
+	},
+	"1d0ff740-36f7-4ce2-8665-a84dafc9470e":
+	{
+		"title": "Volleyball",
+		"description": ""
+	},
+	"eac6fc35-4316-4f99-9a65-b78201fec9f2":
+	{
+		"title": "Boule de Bowling",
+		"description": ""
+	},
+	"fab1db4a-abac-4579-8ac6-94d5df29642d":
+	{
+		"title": "Quille de Bowling",
+		"description": ""
+	},
+	"484066e4-1176-4472-877d-bffe9b0c522d":
+	{
+		"title": "Balle de Plage",
+		"description": ""
+	},
+	"4284b368-91ab-4a81-83ef-dae2a847bead":
+	{
+		"title": "Sac de Frappe - (Punching Bag)",
+		"description": ""
+	},
+	"2cf4121b-50a9-483f-87ff-402c49697028":
+	{
+		"title": "Boule de Billiard - Cue",
+		"description": ""
+	},
+	"90735215-bb1e-48c4-84bf-85e84e30980a":
+	{
+		"title": "Boule de Billiard - 1",
+		"description": ""
+	},
+	"a43fbc2f-ad82-44da-bfd1-31485393cbd9":
+	{
+		"title": "Boule de Billiard - 2",
+		"description": ""
+	},
+	"4d695672-0863-41b2-b344-6feab2e87f07":
+	{
+		"title": "Boule de Billiard - 3",
+		"description": ""
+	},
+	"2fbca281-6c67-4f44-9983-6ebc06ab8af0":
+	{
+		"title": "Boule de Billiard - 4",
+		"description": ""
+	},
+	"f0a0e19b-e0e9-459a-9036-2f1a7ef34590":
+	{
+		"title": "Boule de Billiard - 5",
+		"description": ""
+	},
+	"7d9ba651-0c9d-44cd-8a2b-b237981d5776":
+	{
+		"title": "Boule de Billiard - 6",
+		"description": ""
+	},
+	"8d7a5114-9d4b-454c-b54e-66afd9c41bbf":
+	{
+		"title": "Boule de Billiard - 7",
+		"description": ""
+	},
+	"e8c15a4e-9548-4447-8949-cc4b950a3111":
+	{
+		"title": "Boule de Billiard - 8",
+		"description": ""
+	},
+	"a5c66792-ae35-4fde-83e8-2bcec027723c":
+	{
+		"title": "Boule de Billiard - 9",
+		"description": ""
+	},
+	"ff9cba73-09af-4a46-a232-36815c3ad037":
+	{
+		"title": "Boule de Billiard - 10",
+		"description": ""
+	},
+	"e559b658-eac3-4cc1-bada-0241d545f641":
+	{
+		"title": "Boule de Billiard - 11",
+		"description": ""
+	},
+	"b1850c9c-887a-4150-9d2f-188fdedea403":
+	{
+		"title": "Boule de Billiard - 12",
+		"description": ""
+	},
+	"a47efb3b-111a-4396-a8ba-ddbc0cf23465":
+	{
+		"title": "Boule de Billiard - 13",
+		"description": ""
+	},
+	"0ca3a832-d3b4-4d33-acd7-d4fa9b49d621":
+	{
+		"title": "Boule de Billiard - 14",
+		"description": ""
+	},
+	"af407bc3-fb85-49a4-9d3b-0ce6421927a0":
+	{
+		"title": "Boule de Billiard - 15",
+		"description": ""
+	},
+	"52a82f61-5134-4b24-80ac-6645306d4503":
+	{
+		"title": "Poké Ball",
+		"description": ""
+	},
+	"ec46b5e5-29e3-4462-83bd-020333250538":
+	{
+		"title": "Bloc Minecraft - Herbe",
+		"description": ""
+	},
+	"6711eca1-9f6f-44ea-b567-3705882295be":
+	{
+		"title": "Capteur 21-40",
+		"description": ""
+	},
+	"34c9e47f-17ed-40aa-88ce-97061e58f9bd":
+	{
+		"title": "Capteur 41-60",
+		"description": ""
+	},
+	"75b3e94c-a1c8-4f08-b9ec-433e1a3bb051":
+	{
+		"title": "Capteur 61-80",
+		"description": ""
+	},
+	"be1fb484-673c-4633-86c8-b2db002ce799":
+	{
+		"title": "Capteur 81-100",
+		"description": ""
+	},
+	"53b82474-ea8e-4835-b28b-10c06514bfcf":
+	{
+		"title": "Statuette de Caneton de Luxe",
+		"description": "Le plus luxueux de tous les canetons"
+	},
+	"8b67acb7-5779-4302-8c3c-c230fea766f4":
+	{
+		"title": "Lego Brick 2x4",
+		"description": ""
+	},
+	"132bfeac-fd8e-416c-8fe2-d907f013de16":
+	{
+		"title": "Lego Brick 2x2",
+		"description": ""
+	},
+	"858c147b-1aa9-474c-a572-8893f816d0ca":
+	{
+		"title": "Élévateur de Rechange",
+		"description": ""
+	},
+	"623b66a7-1123-484e-b67c-d544f9f90283":
+	{
+		"title": "Roue Gigantesque",
+		"description": "Une ridicule roue gigantesque \n\n\n\nParce que."
+	},
+	"e8872924-5c1e-400d-90d5-00ea5228760d":
+	{
+		"title": "Bloc Ridiculement Lourd",
+		"description": "100x Ultra Lourd\n\nÉlément très radioactif\n\nPas besoin de beaucoup de cet élément pour tomber à travers le sol."
+	},
+	"d41e1bf5-f7e1-471f-95e1-04b350da7b6c":
+	{
+		"title": "Sir Canneton",
+		"description": "Un Canneton avec un chapeau."
+	},
+	"7394eac5-72b1-4cb5-af18-d4bc5230314b":
+	{
+		"title": "Batterie de Rechange",
+		"description": "Cette pièce était cachée parmi les fichiers de Scrap Mechanic. Elle pourrait être utilisée come une pièce intéractive (Source d'énergie ?) dans le mode survie, mais pour le moment elle peut être utilisée en décoration."
+	},
+	"fdae691a-40ed-4c7c-b3bc-d22944a8cf66":
+	{
+		"title": "Écran de Sécurité 1",
+		"description": "Contient 12 images (porte logique) Il peut alors être utilisé pour affiché un ensemble de 2 images, 6 different ensembles."
+	},
+	"227e1828-6461-4116-a418-8ed3b693969e":
+	{
+		"title": "Écran de Sécurité",
+		"description": "Contient 12 images (porte logique) Il peut alors être utilisé pour affiché un ensemble de 2 images, 6 different ensembles."
+	},
+	"9ac1cad6-08f6-47a1-b369-93fa2bca48ad":
+	{
+		"title": "Hydraulique x3",
+		"description": "Anti-suspension: veut rester compressé et résiste à l'extention."
+	},
+	"c271edce-f521-419c-ba33-79bdddb372a4":
+	{
+		"title": "Hydraulique x8",
+		"description": "Anti-suspension: veut rester compressé et résiste à l'extention."
+	},
+	"02d3c969-1a64-445e-ae57-b04d7ae66157":
+	{
+		"title": "Anti-Propulseur",
+		"description": "Il aspire au lieu de souffler"
+	},
+	"d9a3763d-a876-4c52-8bed-8051a843ecf1":
+	{
+		"title": "Propulseur Stable",
+		"description": "Très stable, vole droit."
+	},
+	"1039c626-5f88-4a70-9bb4-363bee0bf5ba":
+	{
+		"title": "Propulseur Instable 10%",
+		"description": "Très instable comparé au propulseur normal."
+	},
+	"dbb5f543-10a8-4c89-a21b-0fadd71a8e47":
+	{
+		"title": "Propulseur Instable 100%",
+		"description": "Ça commence à devenir fou!"
+	},
+	"72631acc-bab6-4eb0-9289-291f59166144":
+	{
+		"title": "Propulseur Farfelu",
+		"description": "Si vous parvenez à créer une création volante avec ceci, et que vous avez encore le contrôle...vous avez gagné."
+	},
+	"39e0c1b0-93b9-4bca-a4d0-cc7d6c12f8c2":
+	{
+		"title": "Volant",
+		"description": "C'est une roue, mais pas le type qui roule sur le sol."
+	},
+	"26aafccf-c745-4dff-ae63-61a011bdfa4c":
+	{
+		"title": "Roue Cookie au Pétites de Chocolat",
+		"description": ""
+	},
+	"907bad1a-5391-47e2-be73-1bf0229e68be":
+	{
+		"title": "Roue Cookie à la Noix de Macadamia",
+		"description": ""
+	},
+	"3e7ae369-0ae4-4243-ac34-8576d6909e15":
+	{
+		"title": "Roue Cookie à la Crème - Original",
+		"description": ""
+	},
+	"bfeb5dc0-29d2-461e-b0b6-6c68ca05c0cb":
+	{
+		"title": "Roue Cookie à la Crème - Doré",
+		"description": ""
+	},
+	"9f4856f6-349c-449e-b1e3-b5adca334fea":
+	{
+		"title": "Gros Oeuf",
+		"description": "Je me demande ce qu'il y a dedans?"
+	},
+	
+	"6f2dacf9-c6d5-4c0c-b86d-5b76ffe10b5e":
+	{
+		"title": "Moteur à Essence - GOD MODE",
+		"description": ""
+	},
+	"595579d6-4c24-49b6-9cf9-7b621dde25f8":
+	{
+		"title": "Moteur Electrique - GOD MODE",
+		"description": ""
+	},
+	"36d7127e-d4aa-4397-b12d-4df6621bfb14":
+	{
+		"title": "Propulseur à Anti-matière - (Niveau 5)",
+		"description": ""
+	},
+	"69ec6a78-5aab-4464-88e5-fe708431e9ad":
+	{
+		"title": "Siège de Souffrance",
+		"description": ""
+	},
+	"40711fb8-6956-4d81-a570-4d11c0ad3e89":
+	{
+		"title": "Support de Roulement Bague",
+		"description": "Utilisé pour monter la roue sans moyeu dans le Modpack principal"
+	},
+	"1cb3e2b1-566c-4888-86b4-5659e9386c12":
+	{
+		"title": "Main Droite de Mannequin",
+		"description": ""
+	},
+	"bb44fb6d-30ed-48c6-a537-d4c5493fd587":
+	{
+		"title": "Clone Dwarf T-pose",
+		"description": "Un Dwarf réaliste pour vous amuser avec...personne ne le saura"
+	},
+
+
+	"976547a2-4657-446c-b0bd-7afb89d1fe65":
+	{
+		"title": "Block On/Off",
+		"description": "Opaque / Transparent"
+	}
+}

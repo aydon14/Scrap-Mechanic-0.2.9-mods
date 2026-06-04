@@ -1,0 +1,63 @@
+{
+	"blockList": [
+		{
+			"uuid": "036ffed6-45df-11e6-beb8-9e71128cae77",
+			"dif": "$MOD_DATA/Objects/Textures/transparent.png",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "eedd77",
+			"density": 1.0,
+			"tiling": 1,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "036ffe0e-45df-11e6-beb8-9e71128cae77",
+			"dif": "$MOD_DATA/Objects/Textures/transparent.png",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "c78318",
+			"density": 250.0,
+			"tiling": 1,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "036fff9e-45df-11e6-beb8-9e71128cae77",
+			"dif": "$MOD_DATA/Objects/Textures/transparent.png",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "a06010",
+			"tiling": 1,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "03700066-45df-11e6-beb8-9e71128cae77",
+			"dif": "$MOD_DATA/Objects/Textures/transparent.png",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "602008",
+			"density": 1250.0,
+			"tiling": 1,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "050ab102-8902-4ff9-b2b6-592c11365406",
+			"dif": "$MOD_DATA/Objects/Textures/transparent.png",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "300000",
+			"density": 2500.0,
+			"tiling": 1,
+			"physicsMaterial": "Plastic"
+		},
+		{
+			"uuid": "b8716e68-fe8d-4581-8ea1-f124d16b4aaa",
+			"dif": "$MOD_DATA/Objects/Textures/transparent.png",
+			"asg": "$MOD_DATA/Objects/Textures/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.png",
+			"color": "000000",
+			"density": 10000.0,
+			"tiling": 1,
+			"physicsMaterial": "Plastic"
+		}
+	]
+}

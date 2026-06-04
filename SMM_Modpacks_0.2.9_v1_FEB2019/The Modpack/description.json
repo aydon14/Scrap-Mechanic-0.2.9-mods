@@ -1,0 +1,14 @@
+{
+   "creatorId" : 76561198014346778,
+/*   "dependencies" : [
+      {
+         "fileId" : 1489935400,
+         "localId" : "aaaaaaaa-abcd-aaaa-aaaa-aaaaaaaaaaaa"
+      }
+   ],*/
+   "description" : "Official ModPack:\n\nThis is the main Modpack.\nIt contains many of the most common parts.\nOther parts will be available in other categories.\n\nLike the mods?\nDon't forget to leave a thumbs up! ;)\n\nThis mod is a collaboration of the ModPack Team:\nDurf: http://youtube.com/Durf\nMJM Builds: https://www.youtube.com/mjmbuilds\nBrent Batch: https://www.youtube.com/brentbatch\nLord Pain: https://www.youtube.com/lordpain\nGrego: http://www.youtube.com/grego0\nShinevisionSV: http://youtube.com/ShinevisionSV\n\nLanguage Support:\n- English: Default\n- Dutch: Thanks to LittleBladed for the translation!\n- French: Coming soon!\n- German: Thanks to Leon Nündel for the translation!\n- Polish: Coming soon!\n- Russian: Coming soon!",
+   "fileId" : 881254777,
+   "localId" : "26ef623b-97d2-49ba-9a10-8898c1a94e9a",
+   "name" : "The Modpack",
+   "type" : "Blocks and Parts",
+}
